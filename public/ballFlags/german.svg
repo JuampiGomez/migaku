@@ -1,0 +1,20 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title--3f5947750af" role="img" width="40"  height="40" ><title id="3f5947750af--title--3f5947750af">German</title>
+  <g clip-path="url(#3f5947750af--German_svg__a)" fill="none">
+    <path fill="#FFCE00" d="M0 15.998h24V24H0z"></path>
+    <path fill="#292F33" d="M0 0h24v8.002H0z"></path>
+    <path fill="#ED1B2F" d="M0 8.002h24v7.996H0z"></path>
+    <path fill="url(&quot;#3f5947750af--German_svg__b&quot;)" d="M0 12.014c0-6.627 5.373-12 12-12s12 5.373 12 12c0 6.628-5.373 12-12 12s-12-5.372-12-12"></path>
+  </g>
+  <defs>
+    <radialGradient id="3f5947750af--German_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient>
+    <clipPath id="3f5947750af--German_svg__a">
+      <rect width="24" height="24" fill="#fff" rx="12"></rect>
+    </clipPath>
+  <radialGradient id="3f5947750af--German_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient></defs>
+</svg>

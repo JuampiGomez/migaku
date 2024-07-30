@@ -1,0 +1,22 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title--a3f5947750a" role="img" width="40"  height="40" ><title id="a3f5947750a--title--a3f5947750a">French</title>
+  <g clip-path="url(#a3f5947750a--French_svg__a)" fill="none">
+    <rect width="24" height="24" fill="#FFFFFF" rx="12"></rect>
+    <path fill="#ED1B2F" d="M24 24c0 2.04 1.473 0 0 0h-8V0h8c0-2.04 1.473 0 0 0z"></path>
+    <path fill="#2E4AD2" d="M0 0c-1.473 0 0-2.04 0 0v24c-1.473 0 0 2.04 0 0h8V0z"></path>
+    <path fill="#FFFFFF" d="M8 0h8v24H8z"></path>
+    <path fill="url(&quot;#a3f5947750a--French_svg__b&quot;)" d="M0 12.014c0-6.627 5.373-12 12-12s12 5.373 12 12c0 6.628-5.373 12-12 12s-12-5.372-12-12"></path>
+  </g>
+  <rect width="23.87" height="23.87" x=".065" y=".065" stroke="#000000" stroke-opacity="0.1" stroke-width="0.13px" rx="11.935" fill="none"></rect>
+  <defs>
+    <radialGradient id="a3f5947750a--French_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient>
+    <clipPath id="a3f5947750a--French_svg__a">
+      <rect width="24" height="24" fill="#fff" rx="12"></rect>
+    </clipPath>
+  <radialGradient id="a3f5947750a--French_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient></defs>
+</svg>

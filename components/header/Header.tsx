@@ -10,15 +10,20 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { ChevronDown, Menu } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { Button } from "../ui/button";
+import { useState } from "react";
 
 const Header = () => {
   const pathname = usePathname();
+  const [openMore, setOpenMore] = useState(false);
+
   return (
-    <header className={` p-3 flex justify-between`}>
-      <Link href={"/"}>
+    <header
+      className={` p-3 lg:px-8 lg:py-6 flex justify-between items-center sticky top-0 left-0 bg-transparent z-50  backdrop-blur-xl	`}
+    >
+      <Link href={"/"} className="lg:hidden">
         <Image
           className="cursor-pointer transition-transform hover:scale-105 duration-300 md:w-[160px] md:h-[30px]"
           src={"/logo.svg"}
@@ -29,7 +34,7 @@ const Header = () => {
       </Link>
 
       <Sheet>
-        <SheetTrigger>
+        <SheetTrigger className="lg:hidden">
           <Menu
             width={30}
             height={30}
@@ -44,7 +49,7 @@ const Header = () => {
             pathname === "/learn-chinese"
               ? "bg-[#0a002a]"
               : " bg-white dark:bg-[#0a002a]"
-          }`}
+          } lg:hidden`}
         >
           <SheetHeader>
             <Link href={"/"}>
@@ -95,6 +100,60 @@ const Header = () => {
           </SheetHeader>
         </SheetContent>
       </Sheet>
+
+      <nav className="hidden lg:flex justify-between items-center w-full">
+        <ul
+          className={`flex gap-5 font-bold text-lg ${
+            pathname === "/" ||
+            pathname === "/learn-japanese" ||
+            pathname === "/learn-chinese"
+              ? "text-white"
+              : " text-[#00005a] dark:text-white"
+          }`}
+        >
+          <Link className="hover:opacity-50 duration-300" href={"/download"}>
+            <li>Download</li>
+          </Link>
+          <Link className="hover:opacity-50 duration-300" href={"/pricing"}>
+            <li>Pricing</li>
+          </Link>
+          <Link className="hover:opacity-50 duration-300" href={"/blog"}>
+            <li>Blog</li>
+          </Link>
+
+          <div
+            onClick={() => {}}
+            className="hover:opacity-50 duration-300 cursor-pointer flex items-center gap-2"
+          >
+            More
+            <ChevronDown />
+          </div>
+        </ul>
+        <Link
+          href={"/"}
+          className="  mr-[98px] hover:scale-105 transition-transform duration-300"
+        >
+          <Image src={"/logo.svg"} alt="logo" width={160} height={31} />
+        </Link>
+
+        <div className="flex items-center gap-6">
+          <Link
+            href={"/login"}
+            className={` ${
+              pathname === "/" ||
+              pathname === "/learn-japanese" ||
+              pathname === "/learn-chinese"
+                ? "text-white font-bold"
+                : " text-[#00005a] dark:text-white font-bold text-lg font-bold"
+            }`}
+          >
+            Log in
+          </Link>
+          <Link href={"/signup"}>
+            <Button className="py-2 px-6">GET STARTED</Button>
+          </Link>
+        </div>
+      </nav>
     </header>
   );
 };

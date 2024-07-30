@@ -1,0 +1,32 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" class="-mgk-variable-stroke-asset" viewBox="0 0 97 98" role="img" width="97"  height="98" >
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#affee55cbee--Sparkles_svg__a&quot;)" d="M38.018 30.559c21.33 4.383 24.955 7.983 29.562 29.36 4.266-21.407 7.833-25.033 29.092-29.563-21.33-4.382-24.955-7.983-29.56-29.358-4.267 21.406-7.835 25.031-29.094 29.56" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#affee55cbee--Sparkles_svg__b&quot;)" d="M.9 82.058c11.186 2.297 13.089 4.187 15.504 15.397 2.236-11.226 4.109-13.129 15.258-15.504-11.186-2.297-13.089-4.186-15.504-15.397C13.921 77.781 12.05 79.683.9 82.058" stroke-width="0.8px"></path>
+  <defs>
+    <radialGradient id="affee55cbee--Sparkles_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(29.32732 -.1014 .10185 29.46052 67.345 30.458)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="affee55cbee--Sparkles_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(15.3808 -.05317 .05342 15.4504 16.28 82.004)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient>
+  <radialGradient id="affee55cbee--Sparkles_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(29.32732 -.1014 .10185 29.46052 67.345 30.458)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="affee55cbee--Sparkles_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(15.3808 -.05317 .05342 15.4504 16.28 82.004)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="affee55cbee--Sparkles_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(29.32732 -.1014 .10185 29.46052 67.345 30.458)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="affee55cbee--Sparkles_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(15.3808 -.05317 .05342 15.4504 16.28 82.004)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="affee55cbee--Sparkles_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(29.32732 -.1014 .10185 29.46052 67.345 30.458)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="affee55cbee--Sparkles_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(15.3808 -.05317 .05342 15.4504 16.28 82.004)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient></defs>
+</svg>

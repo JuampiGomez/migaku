@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title--47750afe2a1" role="img" width="40"  height="40" ><title id="47750afe2a1--title--47750afe2a1">Portuguese</title>
+  <g clip-path="url(#47750afe2a1--Portuguese_svg__a)" fill="none">
+    <rect width="24" height="24" fill="#009B3A" rx="12"></rect>
+    <path fill="#009B3A" d="M26-2v28H-2V-2z"></path>
+    <path fill="#FFCE00" d="M22.178 12 12 22.268 1.822 12 12 1.73z"></path>
+    <path fill="#2E4AD2" d="M11.978 17.891a5.961 5.961 0 1 0 0-11.923 5.961 5.961 0 0 0 0 11.923"></path>
+    <path fill="#CBE9D4" d="M6.717 9.126a5.9 5.9 0 0 0-.62 1.868c3.688-.268 8.692 1.745 10.84 4.241a6 6 0 0 0 .816-1.85C15.1 10.795 10.445 9.113 6.717 9.127"></path>
+    <path fill="#88C9F9" d="M6.462 12.677a.462.462 0 1 1 .923 0 .462.462 0 0 1-.923 0m.923 1.846a.462.462 0 1 1 .923 0 .462.462 0 0 1-.923 0"></path>
+    <path fill="#55ACEE" d="M9.23 12.677a.461.461 0 1 1 .924 0 .461.461 0 0 1-.923 0m1.847.923a.462.462 0 1 1 .923 0 .462.462 0 0 1-.923 0m3.692 1.846a.462.462 0 1 1 .923 0 .462.462 0 0 1-.923 0M12 16.369a.461.461 0 1 1 .923 0 .461.461 0 0 1-.923 0m2.77-5.538a.462.462 0 1 1 .922 0 .462.462 0 0 1-.923 0"></path>
+    <path fill="#3B88C3" d="M12.923 14.523a.462.462 0 1 1 .923 0 .462.462 0 0 1-.923 0"></path>
+    <path fill="url(&quot;#47750afe2a1--Portuguese_svg__b&quot;)" d="M0 12.014c0-6.627 5.373-12 12-12s12 5.373 12 12c0 6.628-5.373 12-12 12s-12-5.372-12-12"></path>
+  </g>
+  <defs>
+    <radialGradient id="47750afe2a1--Portuguese_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient>
+    <clipPath id="47750afe2a1--Portuguese_svg__a">
+      <rect width="24" height="24" fill="#fff" rx="12"></rect>
+    </clipPath>
+  <radialGradient id="47750afe2a1--Portuguese_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient></defs>
+</svg>

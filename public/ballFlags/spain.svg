@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title--7750afe2a1a" role="img" width="40"  height="40" ><title id="7750afe2a1a--title--7750afe2a1a">Spanish</title>
+  <g clip-path="url(#7750afe2a1a--Spanish_svg__a)" fill="none">
+    <path fill="#ED1B2F" d="M-2-2h28v28H-2z"></path>
+    <path fill="#FFCE00" d="M0 6h24v12H0z"></path>
+    <path fill="#EA596E" d="M9.5 11.188v2.5a2.5 2.5 0 0 0 5 0v-2.5z"></path>
+    <path fill="#F4A2B2" d="M12 10.354h2.5v2.5H12z"></path>
+    <path fill="#DD2E44" d="M9.5 10.354H12v2.5H9.5zM12.05 7.605c.766 0 2.336.16 2.9.724-.604 1.45-1.57.846-2.9.846-1.288 0-2.295.604-2.899-.846.564-.563 2.094-.724 2.9-.724"></path>
+    <path fill="#E88A00" d="M14.024 9.215c-.483-.281-1.208-.322-1.973-.322s-1.49.08-1.974.322l.161.685c.443.12 1.088.201 1.813.201s1.329-.08 1.812-.2zm.685-1.731a1.44 1.44 0 0 0-.765-.242c-.121 0-.242 0-.363.04 0 0-.242-.322-.805-.322-.202 0-.363.04-.524.121v-.04c-.04-.08-.12-.161-.201-.161-.08 0-.202.12-.202.201v.04a1.1 1.1 0 0 0-.523-.12c-.564 0-.806.362-.806.322-.12-.04-.241-.04-.362-.04-1.853 0-.926 1.248-.926 1.248l.2-.242c-.442-.564-.04-.886.766-.886.12 0 .201 0 .282.04-.282.403.242.766.242.766l.12-.202c-.281-.201-.322-.886.484-.886a.8.8 0 0 1 .523.161c0 .04-.04.604-.08.685l.322.282.322-.282c-.04-.12-.08-.644-.08-.685.12-.08.322-.16.523-.16.846 0 .846.684.483.885l.121.202s.443-.363.242-.766c.08 0 .201-.04.282-.04.966 0 1.007.725.765.886l.161.242c-.08 0 .363-.564-.201-1.047"></path>
+    <path fill="#FFFFFF" d="M7.833 10.354h.834v5.834h-.834zm7.5 0h.834v5.834h-.834z"></path>
+    <path fill="#66757F" d="M7 15.354h2.5v.834H7zm7.5 0H17v.834h-2.5zM7.833 9.521h.834v.833h-.834zm7.5 0h.834v.833h-.834z"></path>
+    <path fill="url(&quot;#7750afe2a1a--Spanish_svg__b&quot;)" d="M0 12.014c0-6.627 5.373-12 12-12s12 5.373 12 12c0 6.628-5.373 12-12 12s-12-5.372-12-12"></path>
+  </g>
+  <defs>
+    <radialGradient id="7750afe2a1a--Spanish_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient>
+    <clipPath id="7750afe2a1a--Spanish_svg__a">
+      <rect width="24" height="24" fill="#fff" rx="12"></rect>
+    </clipPath>
+  <radialGradient id="7750afe2a1a--Spanish_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient></defs>
+</svg>

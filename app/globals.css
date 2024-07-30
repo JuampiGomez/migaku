@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.learningIntro {
+  background: linear-gradient(180deg, #056b47 -2.48%, rgba(5, 107, 71, 0) 95%),
+    linear-gradient(0deg, transparent, transparent);
+  clip-path: ellipse(200% 100% at 50% 100%);
+  inset: 0;
+
+  z-index: -10;
+  position: absolute;
+}

@@ -1,0 +1,20 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title--947750afe2a" role="img" width="40"  height="40" ><title id="947750afe2a--title--947750afe2a">Chinese</title>
+  <g clip-path="url(#947750afe2a--Mandarin_svg__a)" fill="none">
+    <rect width="24" height="24" fill="#ED1B2F" rx="12"></rect>
+    <path fill="#ED1B2F" d="M26-2v28H-2V-2z"></path>
+    <path fill="#FFCE00" d="m12.493 3.73.886.428.709-.68-.134.974.867.465-.968.173-.173.968-.465-.867-.975.134.681-.71zm5.615 3.54-.429.884.682.71-.974-.134-.465.868-.173-.97-.969-.173.868-.464-.135-.974.71.681zm-1.152 4.548.323.93.983.02-.784.593.286.943-.808-.562-.808.562.284-.943-.783-.593.983-.02zm-4.463 3.948.886.429.709-.682-.134.975.867.465-.968.173-.173.968-.465-.867-.975.134.681-.71zm-4.978-9.66L8.633 9.32l3.401.07-2.711 2.055.986 3.257-2.794-1.944-2.794 1.944.986-3.257-2.712-2.055 3.402-.07z"></path>
+    <path fill="url(&quot;#947750afe2a--Mandarin_svg__b&quot;)" d="M0 12.014c0-6.627 5.373-12 12-12s12 5.373 12 12c0 6.628-5.373 12-12 12s-12-5.372-12-12"></path>
+  </g>
+  <defs>
+    <radialGradient id="947750afe2a--Mandarin_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient>
+    <clipPath id="947750afe2a--Mandarin_svg__a">
+      <rect width="24" height="24" fill="#fff" rx="12"></rect>
+    </clipPath>
+  <radialGradient id="947750afe2a--Mandarin_svg__b" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient></defs>
+</svg>
