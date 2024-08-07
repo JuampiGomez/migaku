@@ -55,6 +55,40 @@ export function LearningIntro() {
             hiddenClasses={`${isHover ? "block" : "hidden"}`}
             cardStatus={cardStatus}
             setCardStatus={setCardStatus}
+            word="heck"
+            wordType="noun"
+            meanings={[
+              "A milder term expressing surprise, emphasis, or frustration.",
+            ]}
+            meaningInContext={`"Heck" is a mild swear word or expletive used as a substitute for "hell." It's often used in situations where someone wants to express mild frustration, annoyance, or surprise without using stronger language. It's considered a polite or toned-down way of expressing similar emotions.
+
+`}
+            dictionarySource={[
+              {
+                text: "Cambridge Dictionary",
+                href: "https://dictionary.cambridge.org/dictionary/english/heck",
+              },
+              {
+                text: "Verbix Conjugation Dictionary",
+                href: "https://www.verbix.com/webverbix/english/heck",
+              },
+            ]}
+            examples={[
+              "What the heck is going on here?",
+              "Heck, where did I put my phone?",
+              " Oh heck, the store is closed; we&apos;ll have to come back tomorrow",
+            ]}
+            imagesExamplesHref={[
+              "/heck_1.webp",
+              "/heck_2.webp",
+              "/heck_3.webp",
+            ]}
+            audioProps={[
+              {
+                href: "/audios/heck.mp3",
+                text: "Google Text-to-Speech (Male)",
+              },
+            ]}
           />
         </div>
         <p className="text-white text-center my-7 text-[20px] font-medium md:text-2xl md:max-w-[850px] md:mx-auto lg:text-3xl">
@@ -71,6 +105,15 @@ export function LearningIntro() {
             className="w-full mx-auto"
           />
         </div>
+
+        <aside>
+          <p className="text-white font-medium text-[12px] mt-8 text-center">
+            Works with these popular sites ...and{" "}
+            <span className=" underline cursor-pointer hover:opacity-50 duration-200">
+              more
+            </span>
+          </p>
+        </aside>
       </div>
     </section>
   );

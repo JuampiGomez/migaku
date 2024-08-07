@@ -11,3 +11,19 @@
   z-index: -10;
   position: absolute;
 }
+
+.scrollbar-custom {
+  border-radius: 10px;
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+
+  scrollbar-color: #888 #f1f1f1; /* Color del pulgar y la pista */
+}
+
+.scrollbar-custom::-ms-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-ms-scrollbar-track {
+  border-radius: 10px;
+}

@@ -2,6 +2,17 @@
 import Image from "next/image";
 import "./card.css";
 import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+
+type DictionarySource = {
+  text: string;
+  href: string;
+};
+
+type Audio = {
+  text: string;
+  href: string;
+};
 
 type Props = {
   level: 5 | 4;
@@ -9,6 +20,14 @@ type Props = {
   hiddenClasses: string;
   cardStatus: string;
   setCardStatus: React.Dispatch<React.SetStateAction<string>>;
+  word: string;
+  wordType: "noun" | "verb" | "particle";
+  meanings: string[];
+  meaningInContext: string;
+  dictionarySource: DictionarySource[];
+  examples: string[];
+  imagesExamplesHref: string[];
+  audioProps: Audio[];
 };
 
 const Card = ({
@@ -17,19 +36,24 @@ const Card = ({
   hiddenClasses,
   cardStatus,
   setCardStatus,
+  word,
+  wordType,
+  meanings,
+  meaningInContext,
+  dictionarySource,
+  examples,
+  imagesExamplesHref,
+  audioProps,
 }: Props) => {
   const [isTracking, setIsTracking] = useState<boolean>(false);
   const [activeOption, setActiveOption] = useState<
     "AI" | "audio" | "images" | "examples" | "links"
-  >("audio");
+  >("AI");
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  if (!audioRef.current) {
-    audioRef.current = new Audio("/audios/heck.mp3");
-  }
-
-  const playAudio = () => {
+  const playAudio = (href: string) => {
+    audioRef.current = new Audio(href);
     if (audioRef.current) {
       // Verifica que audioRef.current no sea null
       audioRef.current.currentTime = 0; // Reinicia el audio desde el principio
@@ -43,7 +67,7 @@ const Card = ({
     >
       <header className="max-h-[330px] overflow-y-auto no-scroll">
         <nav className="flex justify-between items-center">
-          <h3 className="text-[#3F3F82] font-medium text-xl">heck</h3>
+          <h3 className="text-[#3F3F82] font-bold text-xl">{word}</h3>
           <ul className="flex gap-2 mr-2">
             <li className="bg-[#EDE3FF] rounded-full hover:scale-110 cursor-pointer transition-transform duration-300">
               <Image
@@ -67,7 +91,7 @@ const Card = ({
         </nav>
         <div>
           <div className="flex gap-3 mb-4 items-center">
-            <span className="text-[#2C2C76] font-extrabold">noun</span>
+            <span className="text-[#2C2C76] font-extrabold">{wordType}</span>
             <span
               className={`font-extrabold flex gap-1 items-center p-0.5 px-1.5 rounded-lg ${
                 level === 5
@@ -87,7 +111,9 @@ const Card = ({
             </span>
           </div>
           <ul className="text-[#39397F] font-medium ml-5 pl-2 list-disc flex flex-col gap-2.5">
-            <li>A milder term expressing surprise, emphasis, or frustration</li>
+            {meanings.map((meaning, i) => (
+              <li key={i}>{meaning}</li>
+            ))}
           </ul>
         </div>
 
@@ -146,37 +172,116 @@ const Card = ({
 
         <div className="pl-3">
           {activeOption === "AI" ? (
-            <>
+            <motion.div
+              key="AI" // Clave única para que Framer Motion maneje las animaciones al cambiar de opción
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+            >
               <span className="text-[#2C2C76] font-extrabold">
                 What does this word mean in context?
               </span>
               <p className="mt-5 mb-3 text-[#39397F] font-medium">
-                &quot;Heck&quot; is a mild swear word or expletive used as a
-                substitute for &quot;hell.&quot; It&apos;s often used in
-                situations where someone wants to express mild frustration,
-                annoyance, or surprise without using stronger language.
-                It&apos;s considered a polite or toned-down way of expressing
-                similar emotions.
+                {meaningInContext}
               </p>
 
               <span className=" font-light text-sm">Sourced from chatGPT</span>
-            </>
+            </motion.div>
           ) : activeOption === "audio" ? (
-            <div className="flex gap-3 items-center pb-10">
-              <Image
-                src={"/playAudio.svg"}
-                height={20}
-                width={20}
-                alt="play audio"
-                className=" cursor-pointer"
-                onClick={playAudio}
-              />
-              <span className="text-[#575774] font-bold">
-                Google Text-to-Speech (Male)
-              </span>
-            </div>
+            <motion.div
+              key="audio" // Clave única para que Framer Motion maneje las animaciones al cambiar de opción
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              className="flex gap-3 items-center pb-10"
+            >
+              <ul className="flex flex-col gap-5">
+                {audioProps.map((audioProp, i) => (
+                  <li className="flex gap-3" key={i}>
+                    <Image
+                      src={"/playAudio.svg"}
+                      height={20}
+                      width={20}
+                      alt="play audio"
+                      className=" cursor-pointer"
+                      onClick={() => playAudio(audioProp.href)}
+                    />
+                    <span className="text-[#575774] font-bold">
+                      {audioProp.text}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          ) : activeOption === "examples" ? (
+            <motion.div
+              key="examples"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              className=""
+            >
+              <ul className="grid gap-3 font-bold text-[#2C2C76] pb-5  ">
+                {examples.map((example, i) => (
+                  <li key={i}>{example}</li>
+                ))}
+              </ul>
+            </motion.div>
+          ) : activeOption === "links" ? (
+            <motion.div
+              key="links"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              className=""
+            >
+              <ul className="grid gap-3 font-bold text-[#2C2C76] pb-5 ">
+                {dictionarySource.map((source, i) => (
+                  <li
+                    key={i}
+                    className="flex gap-1 hover:underline cursor-pointer underline-offset-2 max-w-max"
+                  >
+                    <a href={source.href} target="_blank">
+                      {source.text}
+                    </a>
+                    <Image
+                      className=" -rotate-45"
+                      src={"/arrow.svg"}
+                      alt="go to source"
+                      width={20}
+                      height={20}
+                    />
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
           ) : (
-            ""
+            <motion.div
+              key="links"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              className=""
+            >
+              <ul className="flex overflow-x-auto gap-1 scrollbar-custom select-none">
+                {imagesExamplesHref.map((imageHref, i) => (
+                  <li key={i} className="flex-shrink-0 select-none">
+                    <Image
+                      src={imageHref}
+                      alt="image example"
+                      width={250}
+                      height={115}
+                      className=" rounded-2xl object-cover h-[115px] select-none"
+                    />
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
           )}
         </div>
       </header>
