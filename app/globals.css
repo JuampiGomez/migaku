@@ -7,6 +7,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .learningIntro {
   background: linear-gradient(180deg, #056b47 -2.48%, rgba(5, 107, 71, 0) 95%),
     linear-gradient(0deg, transparent, transparent);
