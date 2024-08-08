@@ -4,7 +4,7 @@ type Props = {};
 
 export const LearningStepsCard = (props: Props) => {
   return (
-    <div className="bg-white  p-6 rounded-[28px] max-w-[300px]  md:max-w-[350px]  -rotate-[20deg] relative z-20 shadow-xl">
+    <div className="bg-white  p-6 rounded-[28px] max-w-[300px]  md:max-w-[350px]  -rotate-[20deg] relative z-10 shadow-xl">
       <div className="border-2 rounded-lg">
         <Image
           src={"/learningStepsCardImg.avif"}
@@ -47,7 +47,7 @@ export const LearningStepsCard = (props: Props) => {
 
 export const LearningStepsBgcard = (props: Props) => {
   return (
-    <div className="bg-white  p-6 rounded-[28px] max-w-[300px] rotate-[20deg] absolute z-10 top-0 right-0  shadow-xl  md:max-w-[350px]  md:-right-[40%]   ">
+    <div className="bg-white  p-6 rounded-[28px] max-w-[300px] rotate-[20deg] absolute z-0 top-0 right-0  shadow-xl  md:max-w-[350px]  md:-right-[40%]   ">
       <h2 className="font-extrabold  text-[#00005A] text-center  md:text-2xl">
         The verb 来
       </h2>

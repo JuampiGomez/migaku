@@ -6,7 +6,7 @@ type Props = {
 const SuportedSitesCard = ({ position, hiddenClasses }: Props) => {
   return (
     <div
-      className={`${position} ${hiddenClasses} absolute bg-[#2B2B60] max-[500px]:left-1/2 text-white p-3 rounded-2xl w-full z-10 max-w-[320px] `}
+      className={`${position} ${hiddenClasses} absolute bg-[#2B2B60] max-[500px]:left-1/2 text-white p-3 rounded-2xl w-full z-40 max-w-[320px] `}
     >
       <h4 className="font-bold mb-2">Supported video Sites:</h4>
       <ul className=" font-semibold list-disc pl-5">

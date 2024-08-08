@@ -141,7 +141,7 @@ export function LearningIntro() {
             </p>
             <SuportedSitesCard
               hiddenClasses={`${moreSpanHover ? "block" : "hidden"}`}
-              position="top-10  left-[65%] transform -translate-x-1/2 "
+              position="top-10  left-[65%] transform -translate-x-1/2  "
             />
           </div>
 
