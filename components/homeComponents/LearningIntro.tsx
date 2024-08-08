@@ -1,11 +1,26 @@
 "use client";
 import Image from "next/image";
 import Card from "../card/Card";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import SuportedSitesCard from "./SuportedSitesCard";
 
 export function LearningIntro() {
   const [isHover, setIsHover] = useState(false);
+  const [moreSpanHover, setMoreSpanHover] = useState(false);
   const [cardStatus, setCardStatus] = useState<string>("unknown");
+
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setMoreSpanHover(false);
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
 
   return (
     <section className="px-6 pt-20 pb-12 relative bg-[#0A002A] z-20">
@@ -96,7 +111,7 @@ export function LearningIntro() {
           websites into simple and effective learning materials
         </p>
 
-        <div className="relative max-w-[640px] mx-auto">
+        <div className="relative max-w-[640px] mx-auto lg:max-w-[790px]">
           <Image
             src={"/migakuOnPc.avif"}
             alt="migaku on PC"
@@ -106,13 +121,44 @@ export function LearningIntro() {
           />
         </div>
 
-        <aside>
-          <p className="text-white font-medium text-[12px] mt-8 text-center">
-            Works with these popular sites ...and{" "}
-            <span className=" underline cursor-pointer hover:opacity-50 duration-200">
-              more
-            </span>
-          </p>
+        <aside className=" relative">
+          <div className="">
+            <p className="text-white font-medium text-[12px] mt-8 text-center">
+              Works with these popular sites ...and{" "}
+              <span
+                onMouseEnter={() => {
+                  setMoreSpanHover(true);
+                }}
+                onTouchStart={() => {
+                  setTimeout(() => {
+                    setMoreSpanHover(true);
+                  }, 200);
+                }}
+                className="underline cursor-pointer hover:opacity-50 duration-200"
+              >
+                more
+              </span>
+            </p>
+            <SuportedSitesCard
+              hiddenClasses={`${moreSpanHover ? "block" : "hidden"}`}
+              position="top-10  left-[65%] transform -translate-x-1/2 "
+            />
+          </div>
+
+          <div className="grid grid-cols-2 gap-5 mt-12 mb-10 justify-items-center   items-center max-w-[350px] mx-auto md:max-w-[820px] md:grid-cols-6">
+            <Image src={"/netflix.svg"} width={104} height={80} alt="netflix" />
+            <Image src={"/youtube.svg"} width={104} height={80} alt="youtube" />
+            <Image src={"/disney.svg"} width={104} height={80} alt="disney" />
+            <Image src={"/viki.svg"} width={104} height={80} alt="viki" />
+            <Image src={"/reddit.svg"} width={104} height={80} alt="reddit" />
+            <Image
+              className=" md:-ml-12"
+              src={"/x.svg"}
+              width={33}
+              height={24}
+              alt="x"
+            />
+          </div>
         </aside>
       </div>
     </section>

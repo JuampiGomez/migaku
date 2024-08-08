@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { LearningIntro } from "@/components/homeComponents/LearningIntro";
+import LearningSteps from "@/components/homeComponents/LearningSteps";
 export default function Home() {
   return (
     <>
@@ -65,6 +66,7 @@ export default function Home() {
         />
       </main>
       <LearningIntro />
+      <LearningSteps />
     </>
   );
 }

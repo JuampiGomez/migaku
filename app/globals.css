@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .learningIntro {
   background: linear-gradient(180deg, #056b47 -2.48%, rgba(5, 107, 71, 0) 95%),
     linear-gradient(0deg, transparent, transparent);
@@ -26,4 +31,14 @@
 
 .scrollbar-custom::-ms-scrollbar-track {
   border-radius: 10px;
+}
+
+.box3dRight {
+  transform: skewY(45deg);
+  transform-origin: right;
+}
+
+.box3dBottom {
+  transform: skew(45deg);
+  transform-origin: bottom;
 }

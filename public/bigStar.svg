@@ -1,0 +1,12 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" class="-mgk-variable-stroke-asset" viewBox="0 0 64 64" role="img" width="64"  height="64" >
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#856847dbf2f--Sparkle_svg__a&quot;)" d="M.377 32.386c22.848 4.76 26.706 8.618 31.466 31.466 4.76-22.848 8.617-26.706 31.465-31.466C40.46 27.626 36.603 23.768 31.843.92 27.083 23.768 23.225 27.626.377 32.386" stroke-width="0.8px"></path>
+  <defs>
+    <radialGradient id="856847dbf2f--Sparkle_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(31.4659 0 0 31.4657 31.842 32.386)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient>
+  <radialGradient id="856847dbf2f--Sparkle_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(31.4659 0 0 31.4657 31.842 32.386)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient></defs>
+</svg>
