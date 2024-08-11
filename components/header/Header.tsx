@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header
-      className={` p-3 lg:px-8 lg:py-6 flex justify-between items-center sticky top-0 left-0 bg-transparent z-50  backdrop-blur-xl	`}
+      className={`p-3 lg:px-8 lg:py-6 flex justify-between items-center sticky top-0 left-0 bg-transparent z-50  backdrop-blur-xl	`}
     >
       <Link href={"/"} className="lg:hidden">
         <Image

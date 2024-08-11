@@ -18,6 +18,7 @@ const LearningSteps = () => {
   const [cardFourStatus, setCardFourStatus] = useState<string>("known");
   const [cardFiveStatus, setCardFiveStatus] = useState<string>("unknown");
   const [cardSixStatus, setCardSixStatus] = useState<string>("knowm");
+  const [cardNetflixStatus, setCardNetflixStatus] = useState<string>("unknown");
 
   const handleMouseLeave = () => {
     setTimeout(() => {
@@ -27,6 +28,7 @@ const LearningSteps = () => {
 
   return (
     <>
+      {/* STEP 1 SECTION */}
       <section className="bg-[#0A002A] pt-10  px-6 grid gap-20 lg:grid-cols-2 lg:gap-5  xl:px-36  ">
         <aside className=" relative max-w-[520px] mx-auto ">
           <div
@@ -87,7 +89,9 @@ const LearningSteps = () => {
           />
         </aside>
       </section>
-      <section className="grid gap-10 md:gap-24 lg:gap-10 lg:grid-cols-2 xl:grid-cols-5 lg:items-center xl:px-24   px-6 bg-[#0A002A] pt-40  ">
+
+      {/* STEP 2 SECTION */}
+      <section className="grid gap-10 md:gap-24 lg:gap-10 xl:gap-20 lg:grid-cols-2 xl:grid-cols-5 lg:items-center xl:px-24   px-6 bg-[#0A002A] pt-40 pb-10  ">
         <aside className=" relative max-w-[520px]  max-xl:mx-auto xl:ml-auto lg:order-2 xl:col-span-2  ">
           <div
             className="
@@ -314,7 +318,7 @@ const LearningSteps = () => {
 
             <Card
               position=" 
-              -bottom-[110%]  sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
+              -bottom-[170%]  min-[360px]:-bottom-[155%] min-[390px]:-bottom-[145%] min-[404px]:-bottom-[135%]  min-[424px]:-bottom-[125%] min-[444px]:-bottom-[115%] min-[474px]:-bottom-[105%]  min-[500px]:-bottom-[96%]  min-[525px]:-bottom-[88%]    sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
               level={5}
               hiddenClasses={`${isHover === "宇宙" ? "block" : "hidden"}`}
               cardStatus={cardOneStatus}
@@ -368,7 +372,7 @@ const LearningSteps = () => {
 
             <Card
               position=" 
-              -bottom-[110%]  sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
+              -bottom-[170%]  min-[360px]:-bottom-[155%] min-[390px]:-bottom-[145%] min-[404px]:-bottom-[135%]  min-[424px]:-bottom-[125%] min-[444px]:-bottom-[115%] min-[474px]:-bottom-[105%]  min-[500px]:-bottom-[96%]  min-[525px]:-bottom-[88%]    sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
               level={5}
               hiddenClasses={`${isHover === "は" ? "block" : "hidden"}`}
               cardStatus={cardTwoStatus}
@@ -422,7 +426,7 @@ const LearningSteps = () => {
 
             <Card
               position=" 
-              -bottom-[110%]  sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
+              -bottom-[170%]  min-[360px]:-bottom-[155%] min-[390px]:-bottom-[145%] min-[404px]:-bottom-[135%]  min-[424px]:-bottom-[125%] min-[444px]:-bottom-[115%] min-[474px]:-bottom-[105%]  min-[500px]:-bottom-[96%]  min-[525px]:-bottom-[88%]    sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
               level={4}
               hiddenClasses={`${isHover === "神秘" ? "block" : "hidden"}`}
               cardStatus={cardThreeStatus}
@@ -468,7 +472,7 @@ const LearningSteps = () => {
 
             <Card
               position=" 
-              -bottom-[110%]  sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
+              -bottom-[170%]  min-[360px]:-bottom-[155%] min-[390px]:-bottom-[145%] min-[404px]:-bottom-[135%]  min-[424px]:-bottom-[125%] min-[444px]:-bottom-[115%] min-[474px]:-bottom-[105%]  min-[500px]:-bottom-[96%]  min-[525px]:-bottom-[88%]    sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
               level={5}
               hiddenClasses={`${isHover === "に" ? "block" : "hidden"}`}
               cardStatus={cardFourStatus}
@@ -519,7 +523,7 @@ const LearningSteps = () => {
 
             <Card
               position=" 
-              -bottom-[110%]  sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
+              -bottom-[170%]  min-[360px]:-bottom-[155%] min-[390px]:-bottom-[145%] min-[404px]:-bottom-[135%]  min-[424px]:-bottom-[125%] min-[444px]:-bottom-[115%] min-[474px]:-bottom-[105%]  min-[500px]:-bottom-[96%]  min-[525px]:-bottom-[88%]    sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
               level={4}
               hiddenClasses={`${isHover === "満ちて" ? "block" : "hidden"}`}
               cardStatus={cardFiveStatus}
@@ -573,7 +577,7 @@ const LearningSteps = () => {
 
             <Card
               position=" 
-              -bottom-[110%]  sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
+              -bottom-[170%]  min-[360px]:-bottom-[155%] min-[390px]:-bottom-[145%] min-[404px]:-bottom-[135%]  min-[424px]:-bottom-[125%] min-[444px]:-bottom-[115%] min-[474px]:-bottom-[105%]  min-[500px]:-bottom-[96%]  min-[525px]:-bottom-[88%]    sm:-bottom-[95%]  left-1/2 transform -translate-x-1/2 xl:-bottom-[83%]"
               level={5}
               hiddenClasses={`${isHover === "いる" ? "block" : "hidden"}`}
               cardStatus={cardSixStatus}
@@ -625,6 +629,306 @@ const LearningSteps = () => {
         </aside>
       </section>
 
+      {/* STEP 3 SECTION */}
+      <section className="grid   gap-[420px]  sm:gap-80 lg:gap-10  xl:gap-20 lg:grid-cols-2 xl:grid-cols-5 lg:items-center xl:px-24   px-6 bg-[#0A002A] pt-40  ">
+        <aside className=" relative max-w-[520px]  max-xl:mx-auto xl:ml-auto  xl:col-span-2  ">
+          <div
+            className="
+        bg-[#1E2F5C] max-w-[480px] px-4 py-6 md:py-10 md:px-12 
+        "
+          >
+            <h2 className="text-white text-2xl font-extrabold mt-5 mb-4  md:text-4xl">
+              Create your own learning materials
+            </h2>
+            <p className="mb-5 leading-7 text-white font-medium max-w-[90%] md:text-lg">
+              You’ve always been frustrated and bored using apps and taking
+              classes. The materials are never very engaging…
+            </p>
+            <p className=" text-white font-bold pb-6 max-w-[90%] md:text-lg">
+              Choose content that interests you, then effortlessly create
+              flashcards directly from that content. Each new word you learn
+              increases your understanding.
+            </p>
+
+            <h5 className="text-white font-extrabold uppercase text-sm mb-1">
+              The flashcards you create include:
+            </h5>
+
+            <p className="  text-[14px]">
+              The new word and its context sentence, audio, screenshot,
+              definition, <span className=" text-red-400">AI explanation</span>{" "}
+              and much more!
+            </p>
+
+            <span className=" absolute -top-5 left-2 bg-white px-4 py-2 le rounded-2xl font-GTMaru font-bold  tracking-widest text-[#5F41CE] text-[12px] md:text-xl">
+              STEP 3
+            </span>
+          </div>
+
+          <CardBorder3dRight bg="bg-[#00C7A4] " />
+          <CardBorder3dBottom bg="bg-[#00C7A4] " />
+        </aside>
+
+        <aside className="relative max-w-[480px] mx-auto  xl:max-w-[100%] xl:w-full xl:col-span-3 lg:mt-auto ">
+          <div className="bg-[#252525] rounded-t-2xl flex justify-between gap-2   py-1.5 px-3">
+            <figure className="flex gap-0.5 ">
+              <Image
+                src={"/arrowRight.svg"}
+                className=" rotate-180"
+                width={18}
+                height={18}
+                alt=""
+              />
+
+              <Image src={"/arrowRight.svg"} width={18} height={18} alt="" />
+
+              <Image src={"/reload.svg"} alt="" width={18} height={18} />
+            </figure>
+
+            <div className="bg-[#4E4E4E] flex-grow  rounded-2xl  flex gap-2 pl-2 pr-1 py-1">
+              <Image src={"/netflixRedLogo.svg"} width={9} height={18} alt="" />
+              <span className="text-white text-[12px]">netflix.com</span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <Image
+                src={"/dots.svg"}
+                className=" rotate-90"
+                alt=""
+                width={18}
+                height={18}
+              />
+              <Image src={"/chorme.avif"} alt="" width={18} height={18} />
+            </div>
+          </div>
+
+          <figure className="relative  ">
+            <Image
+              src={"/netflixScene.avif"}
+              width={400}
+              height={400}
+              className="w-full rounded-b-xl  "
+              alt=""
+            />
+
+            <div className=" absolute bottom-8  lg:bottom-7 xl:bottom-10  w-full flex justify-center  ">
+              <div className="text-white font-extrabold  capitalize text-center max-[360px]:text-sm lg:text-xl xl:text-2xl leading-loose">
+                <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                  Der
+                </b>{" "}
+                <span className=" cursor-pointer group  relative text-[#3C91FF] bg-[#DFF4FF] border border-[#3C91FF] rounded-[4px] p-0.5">
+                  Anfang
+                  <span className=" hidden  group-hover:flex absolute left-1 top-6  lg:left-3.5 xl:left-2 xl:top-7">
+                    <Image
+                      src="/starBlueLight.svg"
+                      alt="star"
+                      width={10}
+                      height={10}
+                      className="xl:w-[15px] xl:h-[15px]"
+                    />
+                    <Image
+                      src="/starBlueLight.svg"
+                      alt="star"
+                      width={10}
+                      height={10}
+                      className="xl:w-[15px] xl:h-[15px]"
+                    />
+                    <Image
+                      src="/starBlueLight.svg"
+                      alt="star"
+                      width={10}
+                      height={10}
+                      className="xl:w-[15px] xl:h-[15px]"
+                    />
+                    <Image
+                      src="/starBlueLight.svg"
+                      alt="star"
+                      width={10}
+                      height={10}
+                      className="xl:w-[15px] xl:h-[15px]"
+                    />
+                    <Image
+                      src="/starBlueLight.svg"
+                      alt="star"
+                      width={10}
+                      height={10}
+                      className="xl:w-[15px] xl:h-[15px]"
+                    />
+                  </span>
+                </span>{" "}
+                <span>
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    ist
+                  </b>{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    das
+                  </b>{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    ende
+                  </b>{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    und
+                  </b>{" "}
+                  <br />{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    das
+                  </b>{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    ist
+                  </b>{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    der
+                  </b>{" "}
+                  <b className=" hover:underline hover:decoration-2 hover:underline-offset-4 decoration-green-400 cursor-pointer">
+                    anfang
+                  </b>
+                </span>
+              </div>
+            </div>
+
+            <div className=" absolute  bottom-0 px-5 lg:px-10 xl:px-20 w-[100%]  ">
+              <svg
+                className="w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 591 38"
+                role="img"
+              >
+                <g filter="url(#1073fc86cbe--a)" fill="none">
+                  <path
+                    fill="#FFFFFF"
+                    stroke="#FFFFFF"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.118px"
+                    d="m24.383 16.361-13.49-8.25a.75.75 0 0 0-1.143.638v16.5a.75.75 0 0 0 1.143.637l13.49-8.25a.74.74 0 0 0 0-1.275Z"
+                  ></path>
+                </g>
+                <rect
+                  width="506"
+                  height="5"
+                  x="85"
+                  y="15"
+                  fill="#FFFFFF"
+                  opacity=".6"
+                  rx="2.5"
+                ></rect>
+                <path
+                  fill="#FFFFFF"
+                  d="M50.605 17.7a2.4 2.4 0 0 1 2.4-2.4h190.298a2.4 2.4 0 0 1 0 4.8H53.005a2.4 2.4 0 0 1-2.4-2.4Z"
+                ></path>
+                <defs>
+                  <filter
+                    id="1073fc86cbe--a"
+                    width="39.998"
+                    height="39.998"
+                    x="-5"
+                    y="-1"
+                    colorInterpolationFilters="sRGB"
+                    filterUnits="userSpaceOnUse"
+                  >
+                    <feFlood
+                      floodOpacity="0"
+                      result="BackgroundImageFix"
+                    ></feFlood>
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      result="hardAlpha"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    ></feColorMatrix>
+                    <feOffset dy="2"></feOffset>
+                    <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+                    <feComposite in2="hardAlpha" operator="out"></feComposite>
+                    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                    <feBlend
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_22954_70378"
+                    ></feBlend>
+                    <feBlend
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_22954_70378"
+                      result="shape"
+                    ></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+          </figure>
+
+          <Card
+            word="Anfang"
+            wordType="noun"
+            level={4}
+            meaningInContext={`In this position, "Anfang" means "beginning" or "start," referring to the starting point of a sequence, process, or event. The phrase suggests a cyclical or recursive concept where the start is directly connected to the end.
+`}
+            meanings={[
+              "Beginning - the start or commencement of something",
+              "Start - the point at which something begins",
+              "Onset - the beginning or start of something",
+            ]}
+            cardStatus={cardNetflixStatus}
+            setCardStatus={setCardNetflixStatus}
+            dictionarySource={[
+              {
+                text: "Dict.cc German-English Dictionary",
+                href: "https://www.dict.cc/?s=Anfang",
+              },
+              {
+                text: "Leo German-English Dictionary",
+                href: "https://dict.leo.org/german-english/Anfang",
+              },
+              {
+                text: "DWDS Monolingual Dictionary",
+                href: "https://www.dwds.de/wb/Anfang",
+              },
+              {
+                text: "Verbix Conjugation Dictionary",
+                href: "https://www.verbix.com/webverbix/german/Anfang",
+              },
+            ]}
+            hiddenClasses="block"
+            audioProps={[
+              {
+                text: "laMer (Female from Germany)",
+                href: "/audios/Anfang.mp3",
+              },
+            ]}
+            position=" -top-72 sm:-top-48 lg:left-2 xl:left-32 xl:-top-[15%]"
+            examples={[
+              "Am Anfang ist es schwer.",
+              "In the beginning, it's hard.",
+              "Ich habe am Anfang gelesen.",
+              "I read at the beginning.",
+              "Anfang nächsten Monats beginne ich.",
+              "I start at the beginning of next month.",
+            ]}
+            imagesExamplesHref={[
+              "/anfang1.webp",
+              "/anfang2.webp",
+              "/anfang3.webp",
+            ]}
+          >
+            <div className="absolute -top-24 right-1.5 z-30 flex arrow-animation  ">
+              <span className="text-white font-extrabold max-[356px]:text-sm text-xl   mt-auto  ">
+                Create a card
+              </span>
+
+              <div className="flex flex-col  ">
+                <span className=" text-[#00C7A4] font-extrabold text-[12px] lg:text-lg   ">
+                  Try it!
+                </span>
+                <Image
+                  className=" "
+                  src={"/greenArrowSmall.svg"}
+                  width={40}
+                  height={45}
+                  alt=""
+                />
+              </div>
+            </div>
+          </Card>
+        </aside>
+      </section>
       <br />
       <br />
       <br />

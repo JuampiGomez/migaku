@@ -28,6 +28,7 @@ type Props = {
   examples: string[];
   imagesExamplesHref: string[];
   audioProps: Audio[];
+  children?: React.ReactNode;
 };
 
 const Card = ({
@@ -44,6 +45,7 @@ const Card = ({
   examples,
   imagesExamplesHref,
   audioProps,
+  children,
 }: Props) => {
   const [isTracking, setIsTracking] = useState<boolean>(false);
   const [activeOption, setActiveOption] = useState<
@@ -345,6 +347,7 @@ const Card = ({
           </span>
         )}
       </div>
+      {children}
     </div>
   );
 };
