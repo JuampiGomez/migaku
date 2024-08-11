@@ -46,3 +46,37 @@ body {
   transform: skew(45deg);
   transform-origin: bottom;
 }
+
+@keyframes arrow {
+  0% {
+    transform: rotate(2deg);
+  }
+
+  40% {
+    transform: rotate(6deg);
+  }
+  60% {
+    transform: rotate(1deg);
+  }
+  80% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+.arrow-animation {
+  animation: arrow 2s ease-in-out infinite normal forwards;
+}
+
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+
+rb,
+rt {
+  display: inline;
+  line-height: 1;
+}

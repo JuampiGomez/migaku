@@ -99,7 +99,7 @@ const Card = ({
                   : "text-[#3C91FF] bg-[#DFF4FF]"
               }`}
             >
-              Netflix 5
+              {level === 5 ? "Netflix 5" : "Netflix 4"}
               <Image
                 src={`${
                   level === 5 ? "/starGreenLight.svg" : "/starBlueLight.svg"
@@ -120,8 +120,12 @@ const Card = ({
         <ul className="flex gap-3 my-5 ml-2">
           <li className="">
             <Image
-              className="p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60"
-              src={"/play.svg"}
+              className={`${
+                activeOption === "audio" ? "bg-[#EDE3FF] " : "bg-[#EDEDF3]"
+              } p-1.5 rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60`}
+              src={`${
+                activeOption === "audio" ? "/playActive.svg" : "/play.svg"
+              }`}
               alt="play sound"
               width={40}
               height={40}
@@ -130,8 +134,14 @@ const Card = ({
           </li>
           <li className="">
             <Image
-              className="p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60"
-              src={"/showImage.svg"}
+              className={`${
+                activeOption === "images" ? "bg-[#EDE3FF] " : "bg-[#EDEDF3]"
+              } p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60`}
+              src={`${
+                activeOption === "images"
+                  ? "showImageActive.svg"
+                  : "/showImage.svg"
+              }`}
               alt="show image examples"
               width={40}
               height={40}
@@ -140,8 +150,14 @@ const Card = ({
           </li>
           <li className="">
             <Image
-              className="p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60"
-              src={"/showExamples.svg"}
+              className={`${
+                activeOption === "examples" ? "bg-[#EDE3FF] " : "bg-[#EDEDF3] "
+              } p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60`}
+              src={`${
+                activeOption === "examples"
+                  ? "/showExamplesActive.svg"
+                  : "/showExamples.svg"
+              }`}
               alt="show examples"
               width={40}
               height={40}
@@ -150,8 +166,10 @@ const Card = ({
           </li>
           <li className="">
             <Image
-              className="p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60"
-              src={"/AI.svg"}
+              className={`${
+                activeOption === "AI" ? "bg-[#EDE3FF] " : "bg-[#EDEDF3] "
+              } p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60`}
+              src={`${activeOption === "AI" ? "/AIactive.svg" : "/AI.svg"}`}
               alt="AI meaning"
               width={40}
               height={40}
@@ -161,7 +179,9 @@ const Card = ({
           <li className="">
             <Image
               className="p-1.5 bg-[#EDEDF3] rounded-full hover:scale-110 transition-transform duration-300 cursor-pointer shadow-sm shadow-black/60"
-              src={"/Link.svg"}
+              src={`${
+                activeOption === "links" ? "/LinkActive.svg" : "/Link.svg"
+              }`}
               alt="link to examples"
               width={40}
               height={40}

@@ -14,7 +14,11 @@ const buttonVariants = cva(
 
         purple:
           "bg-button-purple text-white uppercase font-[700] font-GTMaru tracking-wider hover:scale-105 transition-transform duration-300",
+
+        LightPurple:
+          " font-GTMaru text-migaku-purple bg-[#EDE3FF] font-[700] uppercase hover:scale-105 transition-transform duration-300 ",
       },
+
       size: {
         default: " px-4 py-1.5  rounded-2xl ",
         sm: "h-9 rounded-md px-3",
