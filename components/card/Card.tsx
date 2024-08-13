@@ -29,6 +29,8 @@ type Props = {
   imagesExamplesHref: string[];
   audioProps: Audio[];
   children?: React.ReactNode;
+  setCardCreatedHidden?: (setFalse: boolean) => void;
+  cardCreateHidden?: boolean;
 };
 
 const Card = ({
@@ -46,6 +48,8 @@ const Card = ({
   imagesExamplesHref,
   audioProps,
   children,
+  setCardCreatedHidden,
+  cardCreateHidden,
 }: Props) => {
   const [isTracking, setIsTracking] = useState<boolean>(false);
   const [activeOption, setActiveOption] = useState<
@@ -80,7 +84,14 @@ const Card = ({
                 height={40}
               />
             </li>
-            <li className="bg-gradient-to-b from-primary-gradient-orange to-primary-gradient-red rounded-full hover:scale-110 cursor-pointer transition-transform duration-300">
+            <li
+              onClick={() => {
+                if (setCardCreatedHidden) {
+                  setCardCreatedHidden(false);
+                }
+              }}
+              className="bg-gradient-to-b from-primary-gradient-orange to-primary-gradient-red rounded-full hover:scale-110 cursor-pointer transition-transform duration-300"
+            >
               <Image
                 src={"/cardCreator.svg"}
                 alt="create card"

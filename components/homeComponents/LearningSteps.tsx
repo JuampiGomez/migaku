@@ -9,6 +9,8 @@ import { CardBorder3dBottom, CardBorder3dRight } from "../ui/cardBorder3d";
 import Card from "../card/Card";
 import { useState } from "react";
 import Panel from "./Panel";
+import CardCreated from "../card/CardCreated";
+import { Button } from "../ui/button";
 
 const LearningSteps = () => {
   const [isHover, setIsHover] = useState("");
@@ -19,6 +21,8 @@ const LearningSteps = () => {
   const [cardFiveStatus, setCardFiveStatus] = useState<string>("unknown");
   const [cardSixStatus, setCardSixStatus] = useState<string>("knowm");
   const [cardNetflixStatus, setCardNetflixStatus] = useState<string>("unknown");
+
+  const [cardCreatedHidden, setCardCreatedHidden] = useState<boolean>(true);
 
   const handleMouseLeave = () => {
     setTimeout(() => {
@@ -630,7 +634,13 @@ const LearningSteps = () => {
       </section>
 
       {/* STEP 3 SECTION */}
-      <section className="grid   gap-[420px]  sm:gap-80 lg:gap-10  xl:gap-20 lg:grid-cols-2 xl:grid-cols-5 lg:items-center xl:px-24   px-6 bg-[#0A002A] pt-40  ">
+      <section
+        className={`grid ${
+          cardCreatedHidden
+            ? "gap-[420px]  sm:gap-80 lg:gap-10  xl:gap-20 "
+            : "gap-20"
+        } lg:grid-cols-2 xl:grid-cols-5 lg:items-center xl:px-24   px-6 bg-[#0A002A] pt-40  `}
+      >
         <aside className=" relative max-w-[520px]  max-xl:mx-auto xl:ml-auto  xl:col-span-2  ">
           <div
             className="
@@ -669,8 +679,16 @@ const LearningSteps = () => {
           <CardBorder3dBottom bg="bg-[#00C7A4] " />
         </aside>
 
-        <aside className="relative max-w-[480px] mx-auto  xl:max-w-[100%] xl:w-full xl:col-span-3 lg:mt-auto ">
-          <div className="bg-[#252525] rounded-t-2xl flex justify-between gap-2   py-1.5 px-3">
+        <aside
+          className={`${
+            cardCreatedHidden ? " lg:mt-auto" : "flex justify-center"
+          } relative max-w-[480px] mx-auto  xl:max-w-[100%] xl:w-full xl:col-span-3`}
+        >
+          <div
+            className={`${
+              cardCreatedHidden ? "flex" : "hidden"
+            } bg-[#252525] rounded-t-2xl justify-between gap-2   py-1.5 px-3`}
+          >
             <figure className="flex gap-0.5 ">
               <Image
                 src={"/arrowRight.svg"}
@@ -702,7 +720,9 @@ const LearningSteps = () => {
             </div>
           </div>
 
-          <figure className="relative  ">
+          <figure
+            className={`${cardCreatedHidden ? "block" : "hidden"} relative`}
+          >
             <Image
               src={"/netflixScene.avif"}
               width={400}
@@ -856,6 +876,8 @@ const LearningSteps = () => {
           </figure>
 
           <Card
+            cardCreateHidden={cardCreatedHidden}
+            setCardCreatedHidden={setCardCreatedHidden}
             word="Anfang"
             wordType="noun"
             level={4}
@@ -886,7 +908,7 @@ const LearningSteps = () => {
                 href: "https://www.verbix.com/webverbix/german/Anfang",
               },
             ]}
-            hiddenClasses="block"
+            hiddenClasses={`${cardCreatedHidden ? "block" : "hidden"}`}
             audioProps={[
               {
                 text: "laMer (Female from Germany)",
@@ -927,58 +949,27 @@ const LearningSteps = () => {
               </div>
             </div>
           </Card>
+          {cardCreatedHidden === false ? (
+            <div className="relative  max-w-max">
+              <CardCreated hidden={cardCreatedHidden} />
+
+              <Button
+                onClick={() => setCardCreatedHidden(true)}
+                className="px-2 flex left-1/2 z-50 -bottom-12 -translate-x-1/2 absolute"
+              >
+                UNDO
+              </Button>
+            </div>
+          ) : null}
+          <Image
+            src={"/twoBigStar.svg"}
+            width={90}
+            height={90}
+            className="hidden xl:block absolute -top-24  left-[0%] "
+            alt=""
+          />
         </aside>
       </section>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 };
