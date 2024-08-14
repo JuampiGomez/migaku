@@ -28,6 +28,8 @@ const config = {
         "primary-gradient-softblue": "#1596E6",
         "primary-gradinet-lightblue": "#0ACEDE",
         "migaku-purple": "#6730C3",
+        "migaku-green": "#03C3A0",
+        "migaku-light-blue": "#3F8FF7",
       },
       keyframes: {
         "accordion-down": {

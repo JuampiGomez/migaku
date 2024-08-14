@@ -12,6 +12,7 @@ import Panel from "./Panel";
 import CardCreated from "../card/CardCreated";
 import { Button } from "../ui/button";
 import PhoneSlider from "./PhoneSlider";
+import ComprehensionCard from "./ComprehensionCard";
 
 const LearningSteps = () => {
   const [isHover, setIsHover] = useState("");
@@ -1021,6 +1022,111 @@ const LearningSteps = () => {
             className=" absolute -left-28 top-[45%]"
           />
         </aside>
+      </section>
+
+      {/* STEP 5 SECTION  */}
+      <section className="bg-[#0A002A] pt-20 px-6 xl:px-24 grid gap-28 lg:gap-5 xl:gap-20 lg:grid-cols-5 ">
+        <aside className=" relative max-w-[520px]  max-xl:mx-auto   lg:col-span-2  ">
+          <div
+            className="
+        bg-[#1E2F5C] max-w-[520px] px-4 py-6 md:py-16 md:px-12 
+        "
+          >
+            <h2 className="text-white text-2xl font-extrabold mt-5 mb-4  md:text-4xl">
+              Find new content that matches your ability
+            </h2>
+            <p className="mb-5 leading-7 text-white font-medium max-w-[100%]  md:text-lg">
+              It’s such a hassle to find content that matches your current level
+              of ability, it seems like an unsolvable problem…
+            </p>
+            <p className=" text-white font-bold pb-6 max-w-[100%] md:text-lg">
+              Migaku{" "}
+              <b className="text-[#FE6C5A]">tracks all the words you learn</b>,
+              and generates a comprehension score for the content you visit.
+              This makes it easy to choose what to watch or read next!
+            </p>
+
+            <span className=" absolute -top-5 left-2 bg-white px-4 py-2 le rounded-2xl font-GTMaru font-bold  tracking-widest text-[#5F41CE] text-[12px] md:text-xl">
+              STEP 5
+            </span>
+          </div>
+
+          <CardBorder3dRight bg="bg-[#00C7A4] " />
+          <CardBorder3dBottom bg="bg-[#00C7A4] " />
+        </aside>
+
+        <aside className="relative max-w-[480px] mx-auto xl:max-w-[100%] lg:w-full lg:col-span-3">
+          <div className="bg-[#444C93] rounded-t-2xl flex justify-between gap-2   py-1.5 px-3">
+            <figure className="flex gap-0.5 ">
+              <Image
+                src={"/arrowRight.svg"}
+                className=" rotate-180"
+                width={18}
+                height={18}
+                alt=""
+              />
+
+              <Image src={"/arrowRight.svg"} width={18} height={18} alt="" />
+
+              <Image src={"/reload.svg"} alt="" width={18} height={18} />
+            </figure>
+
+            <div className="bg-[#5B62A0] flex-grow  rounded-2xl  flex gap-2 pl-2 pr-1 py-1">
+              <Image src={"/x.svg"} width={13} height={13} alt="" />
+              <span className="text-white text-[12px]">twitter.com</span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <Image
+                src={"/dots.svg"}
+                className=" rotate-90"
+                alt=""
+                width={18}
+                height={18}
+              />
+              <Image src={"/chorme.avif"} alt="" width={18} height={18} />
+            </div>
+          </div>
+
+          <figure className="relative   ">
+            <Image
+              src={"/twitterBg.avif"}
+              width={400}
+              height={400}
+              className="w-full  rounded-b-2xl  relative z-20 "
+              alt=""
+            />
+
+            <div className="absolute flex gap-4 arrow-animation max-[400px]:left-8 left-10 -top-32 lg:-top-[120px] xl:left-20 max-w-[300px]   ">
+              <div className="flex flex-col mt-5  ">
+                <span className=" text-[#00C7A4] font-extrabold text-[12px] lg:text-lg   ml-auto">
+                  Try it!
+                </span>
+                <Image
+                  className=" ml-3  rotate-180 "
+                  src={"/greenArrow.svg"}
+                  width={80}
+                  height={85}
+                  alt=""
+                />
+              </div>
+              <span className="text-white  font-extrabold lg:text-2xl mt-5  mb-3">
+                Check your comprehension!
+              </span>
+            </div>
+            <button className="z-50  absolute top-1 left-10 w-[50px] sm:w-[100px] h-[15px]  md:h-[20px] lg:top-2.5 lg:left-20"></button>
+
+            <Image
+              src={"greenPlanet.svg"}
+              width={100}
+              height={100}
+              className="absolute -bottom-14 left-5 lg:w-[200px] lg:h-[200px] lg:-bottom-24 z-10 lg:left-10"
+              alt=""
+            />
+          </figure>
+        </aside>
+
+        <ComprehensionCard />
       </section>
     </>
   );
