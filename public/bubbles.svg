@@ -1,0 +1,58 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" class="-mgk-variable-stroke-asset" viewBox="0 0 136 231" role="img" width="136"  height="231" >
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#28928d37ec7--PlanetPurple_svg__a&quot;)" stroke="#642FC3" stroke-width="1.5px" d="M35.72 204.949c0 13.715 11.117 24.832 24.829 24.832 13.714 0 24.833-11.117 24.833-24.832 0-13.713-11.119-24.83-24.833-24.83-13.712 0-24.83 11.117-24.83 24.83Z"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#28928d37ec7--PlanetPurple_svg__b&quot;)" stroke="#642FC3" stroke-width="1.5px" d="M1.108 165.073c0 7.067 5.727 12.794 12.794 12.794 7.065 0 12.791-5.727 12.791-12.794 0-7.064-5.726-12.792-12.791-12.792-7.067 0-12.794 5.728-12.794 12.792Z"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#28928d37ec7--PlanetPurple_svg__c&quot;)" stroke="#642FC3" stroke-width="1.5px" d="M43.055 122.187a4.705 4.705 0 1 0 9.41.001 4.705 4.705 0 0 0-9.41-.001Z"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#28928d37ec7--PlanetPurple_svg__d&quot;)" d="M25.443 68.993C44.1 72.879 47.25 76.029 51.136 94.686c3.886-18.657 7.037-21.807 25.693-25.693-18.656-3.887-21.807-7.037-25.693-25.694-3.887 18.657-7.037 21.807-25.693 25.694" stroke-width="1.5px"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#28928d37ec7--PlanetPurple_svg__e&quot;)" d="M60.828 16.19c11.056 2.302 12.923 4.17 15.226 15.224 2.302-11.055 4.17-12.922 15.224-15.225C80.223 13.887 78.356 12.02 76.054.965c-2.303 11.055-4.17 12.922-15.226 15.224" stroke-width="1.5px"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#28928d37ec7--PlanetPurple_svg__f&quot;)" d="M111.128 192.361c8.785 1.83 10.269 3.314 12.099 12.1 1.831-8.786 3.314-10.27 12.1-12.1-8.786-1.831-10.269-3.314-12.1-12.1-1.83 8.786-3.314 10.269-12.099 12.1" stroke-width="1.5px"></path>
+  <defs>
+    <radialGradient id="28928d37ec7--PlanetPurple_svg__d" cx="0" cy="0" r="1" gradientTransform="matrix(25.6929 0 0 25.6932 51.136 68.992)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="28928d37ec7--PlanetPurple_svg__e" cx="0" cy="0" r="1" gradientTransform="matrix(15.225 0 0 15.2245 76.053 16.19)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="28928d37ec7--PlanetPurple_svg__f" cx="0" cy="0" r="1" gradientTransform="matrix(12.0997 0 0 12.0998 123.227 192.361)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="28928d37ec7--PlanetPurple_svg__a" x1="34.968" x2="86.131" y1="204.95" y2="204.95" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8171FF"></stop>
+      <stop offset=".19" stop-color="#8171FF"></stop>
+      <stop offset="1" stop-color="#C4FFFF"></stop>
+    </linearGradient>
+    <linearGradient id="28928d37ec7--PlanetPurple_svg__b" x1=".359" x2="27.445" y1="165.074" y2="165.074" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8171FF"></stop>
+      <stop offset=".19" stop-color="#8171FF"></stop>
+      <stop offset="1" stop-color="#C4FFFF"></stop>
+    </linearGradient>
+    <linearGradient id="28928d37ec7--PlanetPurple_svg__c" x1="42.304" x2="53.214" y1="122.187" y2="122.187" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8171FF"></stop>
+      <stop offset=".19" stop-color="#8171FF"></stop>
+      <stop offset="1" stop-color="#C4FFFF"></stop>
+    </linearGradient>
+  <linearGradient id="28928d37ec7--PlanetPurple_svg__a" x1="34.968" x2="86.131" y1="204.95" y2="204.95" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8171FF"></stop>
+      <stop offset=".19" stop-color="#8171FF"></stop>
+      <stop offset="1" stop-color="#C4FFFF"></stop>
+    </linearGradient><linearGradient id="28928d37ec7--PlanetPurple_svg__b" x1=".359" x2="27.445" y1="165.074" y2="165.074" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8171FF"></stop>
+      <stop offset=".19" stop-color="#8171FF"></stop>
+      <stop offset="1" stop-color="#C4FFFF"></stop>
+    </linearGradient><linearGradient id="28928d37ec7--PlanetPurple_svg__c" x1="42.304" x2="53.214" y1="122.187" y2="122.187" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8171FF"></stop>
+      <stop offset=".19" stop-color="#8171FF"></stop>
+      <stop offset="1" stop-color="#C4FFFF"></stop>
+    </linearGradient><radialGradient id="28928d37ec7--PlanetPurple_svg__d" cx="0" cy="0" r="1" gradientTransform="matrix(25.6929 0 0 25.6932 51.136 68.992)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="28928d37ec7--PlanetPurple_svg__e" cx="0" cy="0" r="1" gradientTransform="matrix(15.225 0 0 15.2245 76.053 16.19)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient><radialGradient id="28928d37ec7--PlanetPurple_svg__f" cx="0" cy="0" r="1" gradientTransform="matrix(12.0997 0 0 12.0998 123.227 192.361)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE700"></stop>
+      <stop offset="1" stop-color="#FFA5FF" stop-opacity="0"></stop>
+    </radialGradient></defs>
+</svg>

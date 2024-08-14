@@ -11,6 +11,7 @@ import { useState } from "react";
 import Panel from "./Panel";
 import CardCreated from "../card/CardCreated";
 import { Button } from "../ui/button";
+import PhoneSlider from "./PhoneSlider";
 
 const LearningSteps = () => {
   const [isHover, setIsHover] = useState("");
@@ -967,6 +968,57 @@ const LearningSteps = () => {
             height={90}
             className="hidden xl:block absolute -top-24  left-[0%] "
             alt=""
+          />
+        </aside>
+      </section>
+
+      {/* STEP 4 SECTION */}
+      <section className="bg-[#0A002A] pt-40 px-6 xl:px-36 grid gap-10  lg:grid-cols-2  ">
+        <aside className=" relative max-w-[520px] mx-auto lg:order-2  lg:mt-20  h-max   ">
+          <div
+            className="
+        bg-[#1E2F5C]  max-w-[520px] px-4 py-6 md:py-16 md:px-12 
+        "
+          >
+            <h2 className="text-white text-2xl font-extrabold mt-5 mb-4  md:text-4xl">
+              Remember what you learn
+            </h2>
+            <p className="mb-5 leading-7 text-white font-medium max-w-[90%] md:text-lg">
+              You have no idea how you’re going to remember what you’re
+              learning, remembering foreign words is so tough…
+            </p>
+            <p className=" text-white font-bold pb-6 max-w-[90%] md:text-lg">
+              You review the flashcards you’ve created at regular intervals,
+              which prevents you from forgetting them. Spaced repetition makes
+              retaining information much easier.
+            </p>
+
+            <span className=" absolute -top-5 left-2 bg-white px-4 py-2 le rounded-2xl font-GTMaru font-bold  tracking-widest text-[#5F41CE] text-[12px] md:text-xl">
+              STEP 4
+            </span>
+          </div>
+
+          <CardBorder3dRight bg="bg-[#00C7A4] " />
+          <CardBorder3dBottom bg="bg-[#00C7A4] " />
+        </aside>
+
+        <aside className=" mx-auto lg:mr-auto lg:ml-8 relative select-none no-drag  lg:order-1  ">
+          <PhoneSlider />
+
+          <Image
+            src={"/twoBigStar.svg"}
+            alt=""
+            width={100}
+            height={100}
+            className="absolute top-0 -right-28"
+          />
+
+          <Image
+            src={"/bubbles.svg"}
+            width={135}
+            height={135}
+            alt=""
+            className=" absolute -left-28 top-[45%]"
           />
         </aside>
       </section>
