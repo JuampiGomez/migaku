@@ -5,7 +5,8 @@ import Link from "next/link";
 
 const SetUp = () => {
   return (
-    <section className="pt-32 px-6 text-white flex flex-col lg:px-10 xl:px-36">
+    <section className="pt-32 px-6 text-white flex flex-col lg:px-10 xl:px-36  setUpBg">
+      
       <h3 className="font-extrabold text-3xl text-center md:text-5xl  max-w-[20ch] mx-auto lg:max-w-[40ch] lg:text-6xl">
         But it all seems so technical...!
       </h3>
@@ -13,7 +14,7 @@ const SetUp = () => {
         Rest assured setting up Migaku is easy and just takes a couple minutes
       </p>
 
-      <article className="flex flex-col gap-4 lg:gap-7 lg:flex-row lg:items-center">
+      <article className="flex flex-col gap-4 lg:gap-7 lg:flex-row lg:items-center z-20 ">
         <div className="">
           <aside className="relative  max-w-[504px] mx-auto ">
             <div className="  bg-migaku-beige border border-black flex flex-col  items-center px-10 py-10 ">
