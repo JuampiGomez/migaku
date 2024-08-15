@@ -8,6 +8,8 @@ import Image from "next/image";
 
 import { LearningIntro } from "@/components/homeComponents/LearningIntro";
 import LearningSteps from "@/components/homeComponents/LearningSteps";
+import SetUp from "@/components/setUp/SetUp";
+
 export default function Home() {
   return (
     <>
@@ -67,6 +69,7 @@ export default function Home() {
       </main>
       <LearningIntro />
       <LearningSteps />
+      <SetUp />
     </>
   );
 }

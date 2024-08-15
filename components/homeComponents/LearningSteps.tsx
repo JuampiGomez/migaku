@@ -1025,7 +1025,7 @@ const LearningSteps = () => {
       </section>
 
       {/* STEP 5 SECTION  */}
-      <section className="bg-[#0A002A] pt-20 px-6 xl:px-24 grid gap-28 lg:gap-5 xl:gap-20 lg:grid-cols-5 ">
+      <section className="bg-[#0A002A] pt-20 pb-20 px-6 xl:px-24 grid gap-28 lg:gap-5 xl:gap-20 lg:grid-cols-5 ">
         <aside className=" relative max-w-[520px]  max-xl:mx-auto   lg:col-span-2  ">
           <div
             className="

@@ -20,7 +20,7 @@ export const CardBorder3dBottom = ({
 }: Props) => {
   return (
     <div
-      className={`${bg} ${borderColor} absolute   border  left-3 -bottom-2 w-[calc(100%-3px)] h-[14px] box3dBottom `}
+      className={`${bg} ${borderColor} absolute   border  left-3 -bottom-2 w-[calc(100%-1px)] h-[14px] box3dBottom `}
     ></div>
   );
 };

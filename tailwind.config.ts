@@ -30,6 +30,7 @@ const config = {
         "migaku-purple": "#6730C3",
         "migaku-green": "#03C3A0",
         "migaku-light-blue": "#3F8FF7",
+        "migaku-beige": "#EDE3FF",
       },
       keyframes: {
         "accordion-down": {
