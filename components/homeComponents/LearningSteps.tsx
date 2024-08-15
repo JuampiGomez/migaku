@@ -666,7 +666,7 @@ const LearningSteps = () => {
               The flashcards you create include:
             </h5>
 
-            <p className="  text-[14px]">
+            <p className="  text-[14px] text-white">
               The new word and its context sentence, audio, screenshot,
               definition, <span className=" text-red-400">AI explanation</span>{" "}
               and much more!

@@ -6,7 +6,6 @@ import Link from "next/link";
 const SetUp = () => {
   return (
     <section className="pt-32 px-6 text-white flex flex-col lg:px-10 xl:px-36  setUpBg">
-      
       <h3 className="font-extrabold text-3xl text-center md:text-5xl  max-w-[20ch] mx-auto lg:max-w-[40ch] lg:text-6xl">
         But it all seems so technical...!
       </h3>
@@ -25,7 +24,7 @@ const SetUp = () => {
                 alt="migaku pet"
               />
 
-              <h4 className="text-[#00005A] text-center font-extrabold my-5 text-2xl">
+              <h4 className="text-[#00005A] text-center font-extrabold my-5 text-2xl lg:text-4xl">
                 Sign up for a free account
               </h4>
               <p className="text-center text-[#00005A] font-medium text-lg">
@@ -62,7 +61,7 @@ const SetUp = () => {
         <div className="">
           <aside className="relative  max-w-[400px] mx-auto ">
             <div className="  bg-migaku-beige border border-black flex flex-col  items-center px-10 py-8 ">
-              <h4 className="text-[#00005A] text-center font-extrabold mb-5 text-2xl">
+              <h4 className="text-[#00005A] text-center font-extrabold mb-5 text-2xl  lg:text-3xl">
                 Get Migaku for your browser
               </h4>
               <p className="text-center text-[#00005A] font-medium text-lg">
