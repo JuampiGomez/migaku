@@ -10,6 +10,7 @@ import { LearningIntro } from "@/components/homeComponents/LearningIntro";
 import LearningSteps from "@/components/homeComponents/LearningSteps";
 import SetUp from "@/components/setUp/SetUp";
 import Team from "@/components/team/Team";
+import FeaturesAndReviews from "@/components/features&reviews/FeaturesAndReviews";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
       <LearningSteps />
       <SetUp />
       <Team />
+      <FeaturesAndReviews />
     </>
   );
 }

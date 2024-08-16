@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <section className="bg-[#0A002A] py-20 px-6 text-white xl:px-36">
+    <section className="bg-[#0A002A] pt-20 pb-20 lg:pb-32 px-6  text-white xl:px-36">
       <h3 className="text-center font-extrabold text-3xl md:text-5xl lg:text-[66px] ">
         A team you can trust
       </h3>
@@ -17,7 +17,7 @@ const Team = () => {
       </p>
 
       <article className="grid gap-10  md:grid-cols-2 sm:mr-3 ">
-        <TeamCard array={TeamMembersHomePage} />
+        <TeamCard teamArray={TeamMembersHomePage} />
       </article>
 
       <h5 className="text-[#9B97A8] text-center mt-8 font-bold sm:text-lg  ">
@@ -43,13 +43,13 @@ type TeamCardProps = {
 };
 
 type TeamMembersArrayProps = {
-  array: TeamCardProps[];
+  teamArray: TeamCardProps[];
 };
 
-const TeamCard = ({ array }: TeamMembersArrayProps) => {
+const TeamCard = ({ teamArray }: TeamMembersArrayProps) => {
   return (
     <>
-      {array.map((member) => (
+      {teamArray.map((member) => (
         <div key={member.name} className="relative flex bg-[#1E2F5C]">
           <div className="pl-5 py-[18px] pr-2 flex flex-col gap-1.5">
             <span className="text-[#96a0b9] font-semibold text-[12px] md:text-sm">
