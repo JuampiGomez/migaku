@@ -144,3 +144,15 @@ rt {
 .review-card-gradient {
   background: linear-gradient(45deg, #0a002a, #1c094b);
 }
+
+.city-gradient {
+  --intense-gradient: radial-gradient(
+    38.31% 67.13% at 50% 67.13%,
+    #6c26ff 0%,
+    rgba(13, 13, 33, 0) 100%
+  );
+  background: var(--intense-gradient);
+  inset: 10% 0 0;
+  position: absolute;
+  z-index: 1;
+}

@@ -25,7 +25,7 @@ const FeaturesAndReviews = () => {
   }, []);
 
   return (
-    <section className="px-6 pt-20 md:pt-32 pb-40 bg-[#0A002A] relative text-white grid gap-28">
+    <section className="px-6 pt-20 md:pt-32 pb-20 md:pb-40 bg-[#0A002A] relative text-white grid gap-28">
       <div className="features-bg"></div>
       <article className="z-20 relative grid gap-16">
         <h2 className="text-center font-extrabold text-3xl md:text-6xl max-w-[500px] md:max-w-[1000px] mx-auto">
@@ -58,7 +58,7 @@ const FeaturesAndReviews = () => {
           className="grid gap-10 md:grid-cols-2 xl:grid-cols-4"
           animate={{ y: [-containerHeight, 0] }} // Usa la altura del contenedor
           transition={{
-            duration: 50, // Ajusta según la cantidad de contenido
+            duration: 100, // Ajusta según la cantidad de contenido
             ease: "linear",
             repeat: Infinity,
             repeatType: "loop",
