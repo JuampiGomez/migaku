@@ -75,8 +75,7 @@ export default function Home() {
       <SetUp />
       <Team />
       <FeaturesAndReviews />
-      <GetStarted/>
-      <Footer />
+      <GetStarted />
     </>
   );
 }
