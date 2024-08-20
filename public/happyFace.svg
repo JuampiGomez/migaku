@@ -1,0 +1,50 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" class="-mgk-variable-stroke-asset" viewBox="0 0 93 78" role="img" width="93"  height="78" >
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#ed7c13426ac--SunScreen_svg__a&quot;)" d="M1.45 38.945c0 7.473 4.352 13.928 10.66 16.968l.09-33.98C5.842 24.956 1.45 31.437 1.45 38.946" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#ed7c13426ac--SunScreen_svg__b&quot;)" d="M23.99 1.634c-6.494 0-11.76 5.269-11.76 11.767v51.087c0 6.499 5.265 11.767 11.76 11.767h56.484c6.495 0 11.76-5.268 11.76-11.767V13.401c0-6.498-5.264-11.767-11.76-11.767z" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" fill="#BEF214" d="M18.026 64.489V13.4c0-6.498 5.265-11.766 11.76-11.766H23.99c-6.494 0-11.76 5.268-11.76 11.766V64.49c0 6.498 5.266 11.766 11.76 11.766h5.795c-6.494 0-11.76-5.268-11.76-11.766" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" stroke="#00005A" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.8px" d="M80.474 76.255H23.99c-6.494 0-11.76-5.268-11.76-11.766V13.4c0-6.498 5.265-11.766 11.76-11.766h56.484c6.495 0 11.76 5.268 11.76 11.766V64.49c0 6.498-5.264 11.766-11.76 11.766" fill="none"></path>
+  <path vector-effect="non-scaling-stroke" fill="url(&quot;#ed7c13426ac--SunScreen_svg__c&quot;)" d="M27.079 13.412c-1.226 0-2.221.995-2.221 2.223v46.619c0 1.227.995 2.223 2.22 2.223h50.307a2.22 2.22 0 0 0 2.222-2.223v-46.62a2.22 2.22 0 0 0-2.222-2.222z" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" fill="#FFF300" d="M71.045 38.945c0 10.395-8.422 18.823-18.812 18.823S33.419 49.34 33.419 38.944c0-10.395 8.424-18.822 18.814-18.822s18.812 8.427 18.812 18.822" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" fill="#FFFFFF" d="M37.113 38.945c0-9.772 7.443-17.803 16.966-18.732a19 19 0 0 0-1.846-.091c-10.39 0-18.813 8.427-18.813 18.822 0 10.396 8.423 18.824 18.813 18.824q.935-.001 1.846-.092c-9.523-.928-16.966-8.96-16.966-18.732" stroke-width="0.8px"></path>
+  <path vector-effect="non-scaling-stroke" stroke="#00005A" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.8px" d="M77.385 64.477H27.08a2.22 2.22 0 0 1-2.222-2.223V15.635c0-1.227.995-2.222 2.222-2.222h50.305c1.228 0 2.222.995 2.222 2.222v46.62a2.22 2.22 0 0 1-2.222 2.222" fill="none"></path>
+  <path vector-effect="non-scaling-stroke" stroke="#00005A" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.8px" d="M71.045 38.945c0 10.395-8.422 18.823-18.812 18.823S33.419 49.34 33.419 38.944c0-10.395 8.424-18.822 18.814-18.822s18.812 8.427 18.812 18.822M12.11 55.913c-6.308-3.04-10.66-9.495-10.66-16.969 0-7.508 4.394-13.989 10.75-17.01" fill="none"></path>
+  <path vector-effect="non-scaling-stroke" stroke="#00005A" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.8px" d="M65.651 33.548c0 7.415-6.007 13.427-13.419 13.427-7.41 0-13.419-6.012-13.419-13.427M47.997 31.662v5.829M56.467 31.662v5.829" fill="none"></path>
+  <path vector-effect="non-scaling-stroke" fill="#FFFFFF" d="M8.392 34.926c-.861 2.603-2.345 4.453-3.312 4.132-.968-.32-1.054-2.69-.193-5.293.862-2.603 2.345-4.453 3.312-4.132.969.32 1.055 2.691.193 5.293" stroke-width="0.8px"></path>
+  <defs>
+    <linearGradient id="ed7c13426ac--SunScreen_svg__a" x1="1.45" x2="12.199" y1="38.923" y2="38.923" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C44094"></stop>
+      <stop offset=".489" stop-color="#F7B"></stop>
+      <stop offset=".633" stop-color="#F7B"></stop>
+      <stop offset="1" stop-color="#FF0"></stop>
+    </linearGradient>
+    <linearGradient id="ed7c13426ac--SunScreen_svg__b" x1="12.231" x2="92.234" y1="38.945" y2="38.945" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#006AFF"></stop>
+      <stop offset=".341" stop-color="#3FC9FF"></stop>
+      <stop offset=".782" stop-color="#3FC9FF"></stop>
+      <stop offset="1" stop-color="#3FFFFF"></stop>
+    </linearGradient>
+    <radialGradient id="ed7c13426ac--SunScreen_svg__c" cx="0" cy="0" r="1" gradientTransform="matrix(26.4627 0 0 26.4771 52.232 38.944)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF0"></stop>
+      <stop offset=".206" stop-color="#FF0"></stop>
+      <stop offset=".638" stop-color="#75F376"></stop>
+      <stop offset=".785" stop-color="#75F376"></stop>
+      <stop offset="1" stop-color="#0FF"></stop>
+    </radialGradient>
+  <linearGradient id="ed7c13426ac--SunScreen_svg__a" x1="1.45" x2="12.199" y1="38.923" y2="38.923" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C44094"></stop>
+      <stop offset=".489" stop-color="#F7B"></stop>
+      <stop offset=".633" stop-color="#F7B"></stop>
+      <stop offset="1" stop-color="#FF0"></stop>
+    </linearGradient><linearGradient id="ed7c13426ac--SunScreen_svg__b" x1="12.231" x2="92.234" y1="38.945" y2="38.945" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#006AFF"></stop>
+      <stop offset=".341" stop-color="#3FC9FF"></stop>
+      <stop offset=".782" stop-color="#3FC9FF"></stop>
+      <stop offset="1" stop-color="#3FFFFF"></stop>
+    </linearGradient><radialGradient id="ed7c13426ac--SunScreen_svg__c" cx="0" cy="0" r="1" gradientTransform="matrix(26.4627 0 0 26.4771 52.232 38.944)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF0"></stop>
+      <stop offset=".206" stop-color="#FF0"></stop>
+      <stop offset=".638" stop-color="#75F376"></stop>
+      <stop offset=".785" stop-color="#75F376"></stop>
+      <stop offset="1" stop-color="#0FF"></stop>
+    </radialGradient></defs>
+</svg>
