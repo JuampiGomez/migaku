@@ -1,0 +1,14 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title--1ceacb9d90f" role="img" width="32"  height="32" ><title id="1ceacb9d90f--title--1ceacb9d90f">Japanese</title>
+  <rect width="24" height="24" fill="#FFFFFF" rx="12"></rect>
+  <path fill="#ED1B2F" d="M12 16.963a4.963 4.963 0 1 0 0-9.926 4.963 4.963 0 0 0 0 9.926"></path>
+  <path fill="url(&quot;#1ceacb9d90f--Japanese_svg__a&quot;)" d="M0 12.014c0-6.627 5.373-12 12-12s12 5.373 12 12c0 6.628-5.373 12-12 12s-12-5.372-12-12"></path>
+  <defs>
+    <radialGradient id="1ceacb9d90f--Japanese_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient>
+  <radialGradient id="1ceacb9d90f--Japanese_svg__a" cx="0" cy="0" r="1" gradientTransform="matrix(14.03943 2.03189 -2.01804 13.94372 9.734 9.317)" gradientUnits="userSpaceOnUse">
+      <stop offset=".457" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset=".905" stop-color="#fff" stop-opacity=".54"></stop>
+    </radialGradient></defs>
+</svg>
