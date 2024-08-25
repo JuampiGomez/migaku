@@ -156,3 +156,18 @@ rt {
   position: absolute;
   z-index: 1;
 }
+
+.earlyaccess-bg {
+  background: linear-gradient(
+    300.76deg,
+    rgba(255, 255, 255, 0) 23.22%,
+    #fff 21.22%,
+    #fff 27.34%,
+    rgba(255, 255, 255, 0) 25.34%,
+    rgba(255, 255, 255, 0) 51.58%,
+    #fff 51.59%,
+    #fff 72.13%,
+    rgba(255, 255, 255, 0) 72.14%
+  );
+  opacity: 1;
+}
