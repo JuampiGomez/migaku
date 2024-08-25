@@ -171,3 +171,11 @@ rt {
   );
   opacity: 1;
 }
+
+.no-drag {
+  -webkit-user-drag: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+  -khtml-user-drag: none; /* Para navegadores más antiguos basados en KHTML */
+  -moz-user-drag: none; /* Para Firefox */
+  -o-user-drag: none; /* Para navegadores basados en Opera */
+  user-drag: none;
+}
