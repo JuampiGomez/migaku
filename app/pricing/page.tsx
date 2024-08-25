@@ -1,6 +1,7 @@
 import PricingCard, {
   EearlyAccessCard,
 } from "@/components/pricing/PricingCard";
+import PromoCode from "@/components/pricing/PromoCode";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
@@ -60,6 +61,8 @@ const page = (props: Props) => {
           ]}
         />
       </section>
+
+      <PromoCode />
     </main>
   );
 };
