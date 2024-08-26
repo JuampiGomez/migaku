@@ -6,9 +6,13 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+import type { Metadata } from "next";
 
-const page = (props: Props) => {
+export const metadata: Metadata = {
+  title: "Pricing - Migaku",
+};
+
+const page = () => {
   return (
     <main>
       <div className="px-6">

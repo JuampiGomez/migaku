@@ -3,6 +3,12 @@ import { TeamMembersTeamPage } from "@/const";
 import { TeamCard } from "@/components/team/Team";
 import Image from "next/image";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Meet the Team - Migaku",
+};
+
 const page = () => {
   return (
     <main className="px-6 relative">

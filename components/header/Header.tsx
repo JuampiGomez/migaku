@@ -133,11 +133,33 @@ const Header = () => {
           </Link>
 
           <div
-            onClick={() => {}}
-            className="hover:opacity-50 duration-300 cursor-pointer flex items-center gap-2"
+            onClick={() => {
+              setOpenMore((prev) => !prev);
+            }}
+            className="relative"
           >
-            More
-            <ChevronDown />
+            <span className="hover:opacity-50 duration-300 cursor-pointer flex items-center gap-2  ">
+              More
+              <ChevronDown
+                className={`${openMore ? "rotate-180" : ""} duration-200`}
+              />
+            </span>
+            {openMore && (
+              <div className="absolute top-10 flex flex-col gap-2 bg-[#2B2B60] rounded-2xl ">
+                <Link
+                  className="hover:bg-[#454573]  pl-6 pr-20 py-4 rounded-t-2xl"
+                  href={"/careers"}
+                >
+                  Careers
+                </Link>
+                <Link
+                  className="hover:bg-[#454573] pl-6 pr-20 py-4 rounded-b-2xl"
+                  href={"/team"}
+                >
+                  Team
+                </Link>
+              </div>
+            )}
           </div>
         </ul>
         <Link

@@ -8,7 +8,12 @@ import {
   CardBorderLeftAndTop,
 } from "@/components/ui/cardBorder3d";
 import Image from "next/image";
-import Link from "next/link";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Download - Migaku",
+};
 
 const page = () => {
   return (
