@@ -1,5 +1,9 @@
 import Image from "next/image";
-import { CardBorder3dBottom, CardBorder3dRight } from "../ui/cardBorder3d";
+import {
+  CardBorder3dBottom,
+  CardBorder3dRight,
+  CardBorderLeftAndTop,
+} from "../ui/cardBorder3d";
 import { TeamMembersHomePage } from "@/const";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -17,7 +21,11 @@ const Team = () => {
       </p>
 
       <article className="grid gap-10  md:grid-cols-2 sm:mr-3 ">
-        <TeamCard teamArray={TeamMembersHomePage} />
+        <TeamCard
+          isHome={true}
+          bgBox="bg-[#472589]"
+          teamArray={TeamMembersHomePage}
+        />
       </article>
 
       <h5 className="text-[#9B97A8] text-center mt-8 font-bold sm:text-lg  ">
@@ -44,13 +52,24 @@ type TeamCardProps = {
 
 type TeamMembersArrayProps = {
   teamArray: TeamCardProps[];
+  bgBox: string;
+  isHome?: boolean;
 };
 
-const TeamCard = ({ teamArray }: TeamMembersArrayProps) => {
+export const TeamCard = ({
+  teamArray,
+  bgBox,
+  isHome,
+}: TeamMembersArrayProps) => {
   return (
     <>
       {teamArray.map((member) => (
-        <div key={member.name} className="relative flex bg-[#1E2F5C]">
+        <div
+          key={member.name}
+          className={`relative flex ${
+            isHome ? "bg-[#1E2F5C]" : "bg-[#DFF4FF] dark:bg-[#1E2F5C]"
+          }`}
+        >
           <div className="pl-5 py-[18px] pr-2 flex flex-col gap-1.5">
             <span className="text-[#96a0b9] font-semibold text-[12px] md:text-sm">
               {member.role}
@@ -69,8 +88,10 @@ const TeamCard = ({ teamArray }: TeamMembersArrayProps) => {
             width={156}
             height={156}
           />
-          <CardBorder3dRight bg="bg-[#472589]" />
-          <CardBorder3dBottom bg="bg-[#472589]" />
+          <CardBorder3dRight bg={`${bgBox}`} />
+          <CardBorder3dBottom bg={`${bgBox}`} />
+
+          {!isHome && <CardBorderLeftAndTop />}
         </div>
       ))}
     </>

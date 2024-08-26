@@ -96,6 +96,120 @@ export const TeamMembersHomePage: TeamCardProps[] = [
   },
 ];
 
+export const TeamMembersTeamPage: TeamCardProps[] = [
+  {
+    role: "CEO",
+    imageSrc: "/team1.avif",
+    name: "LUCAS",
+    info: "He’s traveled the world and dabbled in over 10 languages, learned Japanese, Mandarin, and Portuguese to fluency, and passed the Japanese Language Proficiency Test N1.",
+  },
+  {
+    role: "Creative Director",
+    imageSrc: "/team2.avif",
+    name: "JANNIK",
+    info: "Fluent in his native language German, English and Japanese. He operates an investment company in Tokyo and uses Migaku to improve his industry-specific Japanese.",
+  },
+  {
+    role: "Content Team Lead",
+    imageSrc: "/team3.avif",
+    name: "STEVI",
+    info: "A native German speaker who speaks fluent English and Japanese. He passed the highest level of the Japanese Language Proficiency Test (JLPT N1) in just 1.5 years.",
+  },
+  {
+    role: "Design Lead",
+    imageSrc: "/team4.avif",
+    name: "ERIKA",
+    info: "She learned fluent Japanese and has lived and worked in France and the Netherlands while learning French. She’s currently using Migaku daily to improve her language proficiency.",
+  },
+  {
+    role: "Learning Materials Creator",
+    imageSrc: "/team5.avif",
+    name: "RAIMONDS",
+    info: "A native Latvian living in Shanghai. He speaks fluent Mandarin, English, Russian, German, and has dabbled in a ton of languages! He’s translated several famous books into Latvian.",
+  },
+  {
+    role: "Learning Materials Creator",
+    imageSrc: "/team6.avif",
+    name: "FUMIKO",
+    info: "A native Japanese speaker with fantastic English ability. She’s an author of a funny Japanese book about the nuances of the English language.",
+  },
+  {
+    role: "Back-end Dev Lead",
+    imageSrc: "/team7.avif",
+    name: "JULIUS",
+    info: "A German native who learned English through manga and is now learning Japanese. Mostly self-taught, he’s been using his programming prowess to contribute to Migaku from its earliest stages.",
+  },
+  {
+    role: "Front-End Dev Lead",
+    imageSrc: "/team8.avif",
+    name: "Saxon",
+    info: "As a working professional, textbooks and night-classes weren’t getting his Japanese anywhere. But Migaku actually worked. Now he’s a veteran power user, super fan, and proud member of the dev team.",
+  },
+
+  {
+    role: "Operations & Support",
+    imageSrc: "/team9.avif",
+    name: "Cole",
+    info: "He has a Master’s in Spanish, learning Cantonese, Portuguese, and German. He’s tutored and taught Spanish, and is involved in many immersion learning communities and Cantonese resource projects.",
+  },
+
+  {
+    role: "Front-End Developer",
+    imageSrc: "/team10.avif",
+    name: "Joe",
+    info: "Now living in Japan with over 6 years of front-end experience in a range of companies, he still makes time for Japanese, music, retro games, vintage clothing, and sake.",
+  },
+
+  {
+    role: "Android & KMP Developer",
+    imageSrc: "/team11.avif",
+    name: "Kevin",
+    info: "Experienced Android Engineer, expert in Kotlin and modern app architectures. Native Portuguese speaker using Migaku to explore new cultures.",
+  },
+
+  {
+    role: "iOS Developer",
+    imageSrc: "/team12.avif",
+    name: "Triet",
+    info: "A native Viet that finds himself working in Finland. He has a penchant for travel and technology, and now uses Migaku daily to learn Japanese through Dragon Ball and Captain Tsubasa.",
+  },
+
+  {
+    role: "Anki & Full-Stack Developer",
+    imageSrc: "/team13.avif",
+    name: "Henrik",
+    info: "Hailing from Frankfurt, Germany, he’s a prolific Anki dev who maintains the Migaku Anki add-ons. He’s studied Japanese for over 15 years, and enjoys playing Switch and with his cat, Mina.",
+  },
+
+  {
+    role: "Front-End Developer",
+    imageSrc: "/team14.avif",
+    name: "Wan",
+    info: "Fluent in English and Arabic, he learned basic Japanese and Korean from watching anime and k-dramas. Is currently using Migaku to hone his language abilities further.",
+  },
+
+  {
+    role: "Front-End Developer",
+    imageSrc: "/team15.avif",
+    name: "Thinh",
+    info: "A Vietnamese native who became fluent in English through self-learning and immersion, despite never setting foot beyond the border. He uses Migaku daily to advance his language skills.",
+  },
+
+  {
+    role: "Back-End Developer",
+    imageSrc: "/team16.avif",
+    name: "Carlos",
+    info: "Native in Spanish, fluent in English, and currently using Migaku to improve his Japanese, with aims to learn 3 additional Romance languages, driven by a passion for memory techniques.",
+  },
+
+  {
+    role: "Learning Materials Creator",
+    imageSrc: "/team17.avif",
+    name: "Sarah",
+    info: "After nearly a decade mastering Korean, she’s been hard at work on Migaku’s Korean learning materials. A busy mom of three who worked on the popular Refold KO1K deck.",
+  },
+];
+
 type ReviewCard = {
   paragrapth: string;
   userImage: string;
