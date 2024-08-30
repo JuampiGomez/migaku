@@ -32,8 +32,6 @@ const page = () => {
               Overview
             </h2>
 
-            <GoodMorningTable />
-
             <p className=" mt-5 rounded-2xl p-6 md:text-lg font-medium bg-[#EDE3FF] dark:bg-[#36206D] text-migaku-dark-text dark:text-white">
               Note: In this case, the listed terms are the same in both the
               Simplified and Traditional character sets.
