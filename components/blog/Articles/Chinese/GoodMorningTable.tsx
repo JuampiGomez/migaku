@@ -1,17 +1,26 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import Image from "next/image";
 
 type AudioRefs = {
-  [key: string]: HTMLAudioElement;
+  [key: string]: HTMLAudioElement | null;
 };
 
 const GoodMorningTable = () => {
   const audioRefs = useRef<AudioRefs>({
-    早上好: new Audio("/audios/早上好.mp3"),
-    早安: new Audio("/audios/早安.mp3"),
-    早: new Audio("/audios/早.mp3"),
+    早上好: null,
+    早安: null,
+    早: null,
   });
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // Solo se ejecuta en el navegador
+      audioRefs.current["早上好"] = new Audio("/audios/早上好.mp3");
+      audioRefs.current["早安"] = new Audio("/audios/早安.mp3");
+      audioRefs.current["早"] = new Audio("/audios/早.mp3");
+    }
+  }, []);
 
   const playAudio = (audioKey: string) => {
     const audio = audioRefs.current[audioKey];
