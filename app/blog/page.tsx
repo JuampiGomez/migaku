@@ -16,7 +16,7 @@ const page = () => {
       <Section />
 
       <Image
-        src={"careersGradient.svg"}
+        src={"/careersGradient.svg"}
         width={600}
         height={300}
         className="top-36 sm:-top-32 w-full  absolute opacity-50 dark:opacity-20  select-none no-drag"
