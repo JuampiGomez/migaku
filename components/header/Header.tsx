@@ -120,15 +120,27 @@ const Header = () => {
           }`}
         >
           <Link
-            className={`"hover:opacity-50 duration-300 "`}
+            className={`${
+              pathname === "/download" ? "underline  underline-offset-2" : ""
+            } "hover:opacity-50 duration-300 "`}
             href={"/download"}
           >
             <li>Download</li>
           </Link>
-          <Link className="hover:opacity-50 duration-300" href={"/pricing"}>
+          <Link
+            className={`${
+              pathname === "/pricing" ? "underline" : ""
+            } hover:opacity-50 duration-300`}
+            href={"/pricing"}
+          >
             <li>Pricing</li>
           </Link>
-          <Link className="hover:opacity-50 duration-300" href={"/blog"}>
+          <Link
+            className={`${
+              pathname === "/blog" ? "underline" : ""
+            } hover:opacity-50 duration-300`}
+            href={"/blog"}
+          >
             <li>Blog</li>
           </Link>
 
@@ -177,8 +189,8 @@ const Header = () => {
               pathname === "/learn-japanese" ||
               pathname === "/learn-chinese"
                 ? "text-white font-bold"
-                : " text-[#00005a] dark:text-white font-bold text-lg font-bold"
-            }`}
+                : " text-[#00005a] dark:text-white font-bold text-lg"
+            } ${pathname === "/login" ? "underline underline-offset-2" : ""}`}
           >
             Log in
           </Link>

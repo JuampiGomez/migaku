@@ -23,8 +23,6 @@ export const LanguageBalls = [
     src: "/ballFlags/japan.svg",
     title: "Japanese",
     alt: "Japanese",
-    href: "/learn-japanese",
-    IsClickable: true,
   },
   {
     src: "/ballFlags/korea.svg",
@@ -35,8 +33,6 @@ export const LanguageBalls = [
     src: "/ballFlags/china.svg",
     title: "Chinese",
     alt: "Chinese",
-    href: "/learn-chinese",
-    IsClickable: true,
   },
   {
     src: "/ballFlags/brazil.svg",

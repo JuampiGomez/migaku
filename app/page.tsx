@@ -56,8 +56,6 @@ export default function Home() {
               title={language.title}
               src={language.src}
               alt={language.alt}
-              IsClickable={language.IsClickable}
-              href={language.href}
             />
           ))}
         </aside>
