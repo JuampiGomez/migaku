@@ -57,7 +57,7 @@ export const OpinionsDinamic = () => {
   }
 
   return (
-    <div className=" lg:hidden">
+    <div className="relative z-10 lg:hidden">
       <div className="flex gap-1 justify-center">
         <Image src={"/star.svg"} width={21} height={21} alt="star" />
         <Image src={"/star.svg"} width={21} height={21} alt="star" />

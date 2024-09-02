@@ -118,7 +118,7 @@ const Title = (props: Props) => {
   }, []);
 
   return (
-    <h1 className="text-white mt-10 font-GTMaruBlack font-extrabold text-center text-5xl max-[414px]:text-4xl sm:text-[48px] md:text-[70px] lg:text-[90px]">
+    <h1 className="text-white mt-10 font-GTMaruBlack font-extrabold text-center text-5xl max-[414px]:text-4xl sm:text-[48px] md:text-[70px] lg:text-[90px] relative z-10">
       Start{" "}
       <AnimatePresence mode="wait">
         <motion.span
