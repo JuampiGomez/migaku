@@ -212,3 +212,10 @@ rt {
   animation-play-state: running;
   animation: fullRotation 10s linear infinite;
 }
+
+.login-singup-bg {
+  background-image: url("/login&singUpBgLight.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100vh;
+}
